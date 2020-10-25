@@ -9,6 +9,10 @@ D LED, 150060VS55040, Wurth Elektronik WL-SMCD 573 (Typ.) nm 0603 Diffused SMD p
 F https://katalog.we-online.com/led/datasheet/150060VS55040.pdf
 $ENDCMP
 #
+$CMP 61202021621
+D Wurth Elektronik 612 Series, 2.54mm Pitch 20 Way 2 Row Straight PCB Header, Solder Termination, 3A
+$ENDCMP
+#
 $CMP 64600001003
 D Fuse Holder 5X20MM PC MNT
 F http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf

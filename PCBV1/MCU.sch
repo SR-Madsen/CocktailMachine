@@ -495,7 +495,7 @@ $EndComp
 Wire Wire Line
 	9700 950  9400 950 
 Wire Wire Line
-	9800 1900 9800 1750
+	9800 1900 9800 1850
 $Comp
 L Device:R R12
 U 1 1 5F351D34
@@ -545,7 +545,7 @@ Wire Wire Line
 Text Label 7800 5250 3    50   ~ 0
 JTDO_TRACESWO
 Text Label 7700 5250 3    50   ~ 0
-NJTRST
+JNTRST
 Wire Wire Line
 	9600 1900 9600 1750
 $Comp
@@ -574,82 +574,17 @@ Text GLabel 10100 2550 1    50   Input ~ 0
 3V3
 Text GLabel 10350 5450 0    50   Input ~ 0
 3V3
-$Comp
-L SamacSys_Parts:M50-3600542R J4
-U 1 1 5F3832B7
-P 3550 6850
-F 0 "J4" H 4000 7115 50  0000 C CNN
-F 1 "20021121-00010C4LF" H 4000 7024 50  0000 C CNN
-F 2 "HUSSP10W40P127_2X5_635X340X420P" H 4300 6950 50  0001 L CNN
-F 3 "https://www.mouser.dk/ProductDetail/Amphenol-FCI/20021121-00010C4LF?qs=%2Fha2pyFaduhk6vEDe5a0MwjRWUz4Zk9Fskpe5qL0Xo%2FyZkFkIBBW%2FlKXwnPu0N9C" H 4300 6850 50  0001 L CNN
-F 4 "Amphenol Header" H 4300 6750 50  0001 L CNN "Description"
-F 5 "" H 4300 6650 50  0001 L CNN "Height"
-F 6 " 649-202112100010C4LF" H 4300 6550 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.dk/ProductDetail/Amphenol-FCI/20021121-00010C4LF?qs=%2Fha2pyFaduhk6vEDe5a0MwjRWUz4Zk9Fskpe5qL0Xo%2FyZkFkIBBW%2FlKXwnPu0N9C" H 4300 6450 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Amphenol" H 4300 6350 50  0001 L CNN "Manufacturer_Name"
-F 9 "20021121-00010C4LF" H 4300 6250 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3550 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 6850 3400 6850
-Wire Wire Line
-	3550 6950 3400 6950
-Wire Wire Line
-	3550 7050 3400 7050
-Wire Wire Line
-	3550 7250 3400 7250
-Wire Wire Line
-	4450 6850 4600 6850
-Wire Wire Line
-	4450 6950 4600 6950
-Wire Wire Line
-	4450 7050 4600 7050
-Wire Wire Line
-	4450 7150 4600 7150
-Wire Wire Line
-	4450 7250 4600 7250
-NoConn ~ 3550 7150
-Text GLabel 3400 6850 0    50   Input ~ 0
-3V3
-Wire Wire Line
-	3400 6950 3400 7050
-Connection ~ 3400 7050
-Wire Wire Line
-	3400 7050 3400 7250
-Connection ~ 3400 7250
-Wire Wire Line
-	3400 7250 3400 7350
-$Comp
-L power:GND #PWR0127
-U 1 1 5F3B7270
-P 3400 7350
-F 0 "#PWR0127" H 3400 7100 50  0001 C CNN
-F 1 "GND" H 3405 7177 50  0000 C CNN
-F 2 "" H 3400 7350 50  0001 C CNN
-F 3 "" H 3400 7350 50  0001 C CNN
-	1    3400 7350
-	1    0    0    -1  
-$EndComp
-Text Label 4600 7250 0    50   ~ 0
-NJTRST
-Text Label 4600 7150 0    50   ~ 0
+Text Label 6200 7400 0    50   ~ 0
+JNTRST
+Text Label 6200 7300 0    50   ~ 0
 JTDI
-Text Label 4600 7050 0    50   ~ 0
+Text Label 6200 6900 0    50   ~ 0
 JTDO_TRACESWO
-Text Label 4600 6950 0    50   ~ 0
+Text Label 6200 7100 0    50   ~ 0
 JTCK_SWCLK
-Text Label 4600 6850 0    50   ~ 0
+Text Label 6200 7200 0    50   ~ 0
 JTMS_SWDIO
-Wire Notes Line
-	3050 7650 3050 6450
-Wire Notes Line
-	3050 6450 5350 6450
-Wire Notes Line
-	5350 6450 5350 7650
-Wire Notes Line
-	5350 7650 3050 7650
-Text Notes 3050 7750 0    50   ~ 0
+Text Notes 5000 7800 0    50   ~ 0
 JTAG Connector
 Wire Wire Line
 	7100 5000 7100 5250
@@ -1325,4 +1260,125 @@ Wire Wire Line
 Connection ~ 6950 1250
 Wire Wire Line
 	6950 1250 7400 1250
+$Comp
+L SamacSys_Parts:61202021621 J4
+U 1 1 5F976C7D
+P 6200 7500
+F 0 "J4" H 6600 7650 50  0000 L CNN
+F 1 "61202021621" H 5850 7650 50  0000 L CNN
+F 2 "SHDR20W64P254_2X10_3306X910X885P" H 6950 7600 50  0001 L CNN
+F 3 "" H 6950 7500 50  0001 L CNN
+F 4 "Wurth Elektronik 612 Series, 2.54mm Pitch 20 Way 2 Row Straight PCB Header, Solder Termination, 3A" H 6950 7400 50  0001 L CNN "Description"
+F 5 "8.85" H 6950 7300 50  0001 L CNN "Height"
+F 6 "710-61202021621" H 6950 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61202021621?qs=ZtY9WdtwX56vYmz0%252BUtUhA%3D%3D" H 6950 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 6950 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "61202021621" H 6950 6900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6200 7500
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6200 7000
+NoConn ~ 6200 6700
+NoConn ~ 6200 6600
+$Comp
+L power:GND #PWR?
+U 1 1 5F9BD06D
+P 5250 7000
+F 0 "#PWR?" H 5250 6750 50  0001 C CNN
+F 1 "GND" H 5250 6850 50  0000 C CNN
+F 2 "" H 5250 7000 50  0001 C CNN
+F 3 "" H 5250 7000 50  0001 C CNN
+	1    5250 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 7400 5250 7300
+Wire Wire Line
+	5250 7300 5300 7300
+Wire Wire Line
+	5250 7300 5250 7200
+Wire Wire Line
+	5250 7200 5300 7200
+Connection ~ 5250 7300
+Wire Wire Line
+	5300 7100 5250 7100
+Wire Wire Line
+	5250 7100 5250 7200
+Connection ~ 5250 7200
+Wire Wire Line
+	5300 7000 5250 7000
+Wire Wire Line
+	5250 7000 5250 7100
+Connection ~ 5250 7100
+Wire Wire Line
+	5300 6900 5250 6900
+Wire Wire Line
+	5250 6900 5250 7000
+Connection ~ 5250 7000
+Wire Wire Line
+	5300 6800 5250 6800
+Wire Wire Line
+	5250 6800 5250 6900
+Connection ~ 5250 6900
+Wire Wire Line
+	5300 6700 5250 6700
+Wire Wire Line
+	5250 6700 5250 6800
+Connection ~ 5250 6800
+Wire Wire Line
+	5300 6600 5250 6600
+Wire Wire Line
+	5250 6600 5250 6700
+Connection ~ 5250 6700
+Wire Wire Line
+	5300 7400 5250 7400
+Text GLabel 6250 7500 2    50   Input ~ 0
+3V3
+Text GLabel 5250 7500 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5250 7500 5300 7500
+Wire Wire Line
+	6200 7500 6250 7500
+Text Label 6200 6800 0    50   ~ 0
+NRST
+Text Label 9800 1850 0    50   ~ 0
+NRST
+$Comp
+L Device:C C60
+U 1 1 5FAFA95B
+P 10200 1850
+F 0 "C60" V 10150 2000 50  0000 C CNN
+F 1 "100 nF" V 10250 2050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10238 1700 50  0001 C CNN
+F 3 "~" H 10200 1850 50  0001 C CNN
+	1    10200 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 1850 10050 1850
+Connection ~ 9800 1850
+Wire Wire Line
+	9800 1850 9800 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5FB1FA68
+P 10600 1850
+F 0 "#PWR?" H 10600 1600 50  0001 C CNN
+F 1 "GND" H 10605 1677 50  0000 C CNN
+F 2 "" H 10600 1850 50  0001 C CNN
+F 3 "" H 10600 1850 50  0001 C CNN
+	1    10600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 1850 10600 1850
+Wire Notes Line
+	5000 7700 6850 7700
+Wire Notes Line
+	6850 7700 6850 6450
+Wire Notes Line
+	6850 6450 5000 6450
+Wire Notes Line
+	5000 6450 5000 7700
 $EndSCHEMATC

@@ -266,40 +266,6 @@ F 3 "" H 5800 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SamacSys_Parts:BK1608HS601-T L5
-U 1 1 5F47BDA9
-P 3250 4100
-F 0 "L5" H 3100 4400 50  0000 R CNN
-F 1 "BK1608HS601-T" H 3650 4300 50  0000 R CNN
-F 2 "BEADC1608X95N" H 3900 4200 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/BK1608HS601-T.pdf" H 3900 4100 50  0001 L CNN
-F 4 "TAIYO YUDEN - BK1608HS601-T - FERRITE BEAD, 0.45OHM, 350mA, 0603" H 3900 4000 50  0001 L CNN "Description"
-F 5 "0.95" H 3900 3900 50  0001 L CNN "Height"
-F 6 "963-BK1608HS601-T" H 3900 3800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/BK1608HS601-T?qs=I6KAKw0tg2yRykYpbtkrDg%3D%3D" H 3900 3700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TAIYO YUDEN" H 3900 3600 50  0001 L CNN "Manufacturer_Name"
-F 9 "BK1608HS601-T" H 3900 3500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3250 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SamacSys_Parts:BK1608HS601-T L6
-U 1 1 5F47D0CA
-P 3450 4700
-F 0 "L6" H 3850 4800 50  0000 L CNN
-F 1 "BK1608HS601-T" H 3300 4900 50  0000 L CNN
-F 2 "BEADC1608X95N" H 4100 4800 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/BK1608HS601-T.pdf" H 4100 4700 50  0001 L CNN
-F 4 "TAIYO YUDEN - BK1608HS601-T - FERRITE BEAD, 0.45OHM, 350mA, 0603" H 4100 4600 50  0001 L CNN "Description"
-F 5 "0.95" H 4100 4500 50  0001 L CNN "Height"
-F 6 "963-BK1608HS601-T" H 4100 4400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/BK1608HS601-T?qs=I6KAKw0tg2yRykYpbtkrDg%3D%3D" H 4100 4300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TAIYO YUDEN" H 4100 4200 50  0001 L CNN "Manufacturer_Name"
-F 9 "BK1608HS601-T" H 4100 4100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3450 4700
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0139
 U 1 1 5F480E0B
 P 5700 5250
@@ -444,4 +410,28 @@ Wire Notes Line
 	6800 5500 2100 5500
 Wire Notes Line
 	2100 5500 2100 1750
+$Comp
+L Device:Ferrite_Bead_Small L5
+U 1 1 5F971D7C
+P 3350 4100
+F 0 "L5" V 3113 4100 50  0000 C CNN
+F 1 "120 R @ 100 MHz, 6 A" V 3204 4100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 3280 4100 50  0001 C CNN
+F 3 "https://www.mouser.dk/ProductDetail/Fair-Rite/2508051217Y6?qs=paL1wOLBYNdSlNbDsszWbQ%3D%3D" H 3350 4100 50  0001 C CNN
+F 4 "250805127Y6" V 3350 4100 50  0001 C CNN "Name"
+	1    3350 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small L6
+U 1 1 5F973F43
+P 3350 4700
+F 0 "L6" V 3200 4700 50  0000 C CNN
+F 1 "120 R @ 100 MHz, 6 A" V 3100 4700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 3280 4700 50  0001 C CNN
+F 3 "https://www.mouser.dk/ProductDetail/Fair-Rite/2508051217Y6?qs=paL1wOLBYNdSlNbDsszWbQ%3D%3D" H 3350 4700 50  0001 C CNN
+F 4 "250805127Y6" V 3350 4700 50  0001 C CNN "Name"
+	1    3350 4700
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

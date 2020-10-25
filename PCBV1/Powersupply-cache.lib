@@ -121,6 +121,27 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Ferrite_Bead_Small
+#
+DEF Device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
+F0 "FB" 75 50 50 H V L CNN
+F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -31 N
+P 2 0 1 0 0 35 0 51 N
+P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
+X ~ 1 0 100 50 D 50 50 1 1 P
+X ~ 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_L
 #
 DEF Device_L L 0 40 N N 1 F N
@@ -636,6 +657,44 @@ X A 2 600 0 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# SamacSys_Parts_61202021621
+#
+DEF SamacSys_Parts_61202021621 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SamacSys_Parts_61202021621" 750 200 50 H V L CNN
+F2 "SHDR20W64P254_2X10_3306X910X885P" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "Wurth Elektronik 612 Series, 2.54mm Pitch 20 Way 2 Row Straight PCB Header, Solder Termination, 3A" 750 -100 50 H I L CNN "Description"
+F5 "8.85" 750 -200 50 H I L CNN "Height"
+F6 "710-61202021621" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61202021621?qs=ZtY9WdtwX56vYmz0%252BUtUhA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "61202021621" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 0 200 100 700 100 700 -1000 200 -1000 200 100 f
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+X 16 16 900 -700 200 L 50 50 0 0 P
+X 17 17 0 -800 200 R 50 50 0 0 P
+X 18 18 900 -800 200 L 50 50 0 0 P
+X 19 19 0 -900 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 20 20 900 -900 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # SamacSys_Parts_64600001003
 #
 DEF SamacSys_Parts_64600001003 J 0 30 Y Y 1 F N
@@ -735,33 +794,6 @@ X 1 1 0 0 50 R 50 50 1 1 P
 X 2 2 150 200 50 D 50 50 1 1 P
 X 3 3 300 0 50 L 50 50 1 1 P
 X 4 4 150 -200 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SamacSys_Parts_M50-3600542R
-#
-DEF SamacSys_Parts_M50-3600542R J 0 30 Y Y 1 F N
-F0 "J" 750 300 50 H V L CNN
-F1 "SamacSys_Parts_M50-3600542R" 750 200 50 H V L CNN
-F2 "HUSSP10W40P127_2X5_635X340X420P" 750 100 50 H I L CNN
-F3 "https://cdn.harwin.com/pdfs/M50-360R.pdf" 750 0 50 H I L CNN
-F4 "HARWIN Archer M50, 1.27mm Pitch, 10 Way, 2 Row Unshrouded, Right Angle Pin Header, Surface Mount, Solder Termination" 750 -100 50 H I L CNN "Description"
-F5 "855-M50-3600542R" 750 -300 50 H I L CNN "Mouser Part Number"
-F6 "https://www.mouser.co.uk/ProductDetail/Harwin/M50-3600542R?qs=DVxm2sPGGrrPu%2FxuhpV3yw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
-F7 "Harwin" 750 -500 50 H I L CNN "Manufacturer_Name"
-F8 "M50-3600542R" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 0 200 100 700 100 700 -500 200 -500 200 100 f
-X 1 1 0 0 200 R 50 50 0 0 P
-X 10 10 900 -400 200 L 50 50 0 0 P
-X 2 2 900 0 200 L 50 50 0 0 P
-X 3 3 0 -100 200 R 50 50 0 0 P
-X 4 4 900 -100 200 L 50 50 0 0 P
-X 5 5 0 -200 200 R 50 50 0 0 P
-X 6 6 900 -200 200 L 50 50 0 0 P
-X 7 7 0 -300 200 R 50 50 0 0 P
-X 8 8 900 -300 200 L 50 50 0 0 P
-X 9 9 0 -400 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
