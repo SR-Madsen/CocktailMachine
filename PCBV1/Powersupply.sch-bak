@@ -513,23 +513,6 @@ F 3 "~" H 1450 4000 50  0001 C CNN
 	1    1050 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:YBS2207G_RAG D1
-U 1 1 5F342941
-P 2600 4000
-F 0 "D1" H 3050 3700 50  0000 R CNN
-F 1 "YBS2207G_RAG" H 3500 3800 50  0000 R CNN
-F 2 "YBS2207GRAG" H 3450 4100 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/YBS2207G RAG.pdf" H 3450 4000 50  0001 L CNN
-F 4 "Bridge Rectifiers GlassPassivated 2.2A 1000V Bridge Rec." H 3450 3900 50  0001 L CNN "Description"
-F 5 "1.5" H 3450 3800 50  0001 L CNN "Height"
-F 6 "821-YBS2207GRAG" H 3450 3700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=821-YBS2207GRAG" H 3450 3600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Taiwan Semiconductor" H 3450 3500 50  0001 L CNN "Manufacturer_Name"
-F 9 "YBS2207G RAG" H 3450 3400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2600 4000
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	1250 3900 1600 3900
 Wire Wire Line
@@ -538,23 +521,6 @@ Wire Wire Line
 	1600 4100 1600 4500
 Wire Wire Line
 	1250 4100 1600 4100
-$Comp
-L SamacSys_Parts:64600001003 F1
-U 1 1 5F364FB6
-P 1850 3500
-F 0 "F1" H 1800 3750 50  0000 R CNN
-F 1 "64600001003" H 2200 3650 50  0000 R CNN
-F 2 "646-SERIESHOLDER" H 2500 3600 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf" H 2500 3500 50  0001 L CNN
-F 4 "Fuse Holder 5X20MM PC MNT" H 2500 3400 50  0001 L CNN "Description"
-F 5 "" H 2500 3300 50  0001 L CNN "Height"
-F 6 "576-64600001003" H 2500 3200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/64600001003?qs=J2dJc02fMkr9fpR3CPjt3Q%3D%3D" H 2500 3100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "LITTELFUSE" H 2500 3000 50  0001 L CNN "Manufacturer_Name"
-F 9 "64600001003" H 2500 2900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1850 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1600 3500 1850 3500
 Text Notes 1650 3200 0    50   ~ 0
@@ -596,28 +562,12 @@ Wire Wire Line
 	1600 4500 2350 4500
 Connection ~ 2350 4500
 $Comp
-L SamacSys_Parts:VIPER318HDTR U3
-U 1 1 5F3945B9
-P 4750 5450
-F 0 "U3" V 5300 5150 50  0000 C CNN
-F 1 "VIPER318HDTR" V 5400 5150 50  0000 C CNN
-F 2 "SOIC127P600X175-16N" H 5900 5550 50  0001 L CNN
-F 3 "https://www.mouser.dk/datasheet/2/389/dm00695734-1862067.pdf" H 5900 5450 50  0001 L CNN
-F 4 "Switching Voltage Regulators Energy Saving Off-line High Voltage Converter" H 5900 5350 50  0001 L CNN "Description"
-F 5 "1.75" H 5900 5250 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 5900 5150 50  0001 L CNN "Manufacturer_Name"
-F 7 "VIPER318HDTR" H 5900 5050 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "VIPER318HDTR" H 5900 4950 50  0001 L CNN "Arrow Part Number"
-	1    4750 5450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:Transformer_1P_2S T1
 U 1 1 5F3AE47D
 P 5700 3700
 F 0 "T1" H 5700 4281 50  0000 C CNN
 F 1 "EFD 20/10/7" H 5700 4190 50  0000 C CNN
-F 2 "SamacSys_Parts:B66418W1008D1" H 5700 3700 50  0001 C CNN
+F 2 "Personal_Misc:EFD_20_10_7" H 5700 3700 50  0001 C CNN
 F 3 "~" H 5700 3700 50  0001 C CNN
 	1    5700 3700
 	1    0    0    -1  
@@ -626,15 +576,6 @@ Wire Wire Line
 	5300 3900 5050 3900
 Wire Wire Line
 	5050 3900 5050 4150
-Wire Wire Line
-	5050 4150 4950 4150
-Connection ~ 5050 4150
-Connection ~ 4850 4150
-Wire Wire Line
-	4850 4150 4750 4150
-Connection ~ 4950 4150
-Wire Wire Line
-	4950 4150 4850 4150
 Wire Wire Line
 	6100 4100 6200 4100
 Wire Wire Line
@@ -666,7 +607,6 @@ $EndComp
 Connection ~ 5150 3500
 Wire Wire Line
 	3800 3500 3800 3900
-Connection ~ 3800 3500
 Wire Wire Line
 	3800 4200 3800 4600
 Wire Wire Line
@@ -1001,23 +941,6 @@ Wire Notes Line
 	650  6850 650  2850
 Text Notes 650  7000 0    50   ~ 0
 230 VAC to 12 VDC converter
-$Comp
-L SamacSys_Parts:SRR1208-821KL L3
-U 1 1 5F5962AF
-P 3000 3500
-F 0 "L3" H 3400 3725 50  0000 C CNN
-F 1 "820 µH" H 3400 3634 50  0000 C CNN
-F 2 "INDPM127127X850N" H 3650 3550 50  0001 L CNN
-F 3 "https://www.mouser.dk/datasheet/2/54/srr1208-1391332.pdf" H 3650 3450 50  0001 L CNN
-F 4 "Fixed Inductors 820uH 10% SMD 1208" H 3650 3350 50  0001 L CNN "Description"
-F 5 "8.5" H 3650 3250 50  0001 L CNN "Height"
-F 6 "652-SRR1208-821KL" H 3650 3150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRR1208-821KL?qs=h6nEWKui9NAwZV3aoI3QQg%3D%3D" H 3650 3050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 3650 2950 50  0001 L CNN "Manufacturer_Name"
-F 9 "SRR1208-821KL" H 3650 2850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3000 3500
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 9550 2900 1050 150 
 U 5F5A9668
@@ -1094,41 +1017,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 1850 3200 1900
 Connection ~ 3200 1850
-$Comp
-L Regulator_Switching:ST1S41PHR U2
-U 1 1 5FA6375C
-P 5750 1450
-F 0 "U2" H 6350 1715 50  0000 C CNN
-F 1 "ST1S41PHR" H 6350 1624 50  0000 C CNN
-F 2 "SOIC127P600X170-9N" H 6800 1550 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/st1s41.pdf" H 6800 1450 50  0001 L CNN
-F 4 "Conv DC-DC 4V to 18V Step Down Single-Out 0.8V to 18V 4A 8-Pin HSOP EP T/R" H 6800 1350 50  0001 L CNN "Description"
-F 5 "1.7" H 6800 1250 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 6800 950 50  0001 L CNN "Manufacturer_Name"
-F 7 "ST1S41PHR" H 6800 850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5750 1450
-	1    0    0    -1  
-$EndComp
-Connection ~ 5750 1750
 Wire Wire Line
 	6950 1750 6950 1850
 Wire Wire Line
 	6950 1850 7150 1850
-$Comp
-L Regulator_Switching:ST1S41PHR U1
-U 1 1 5FA6F77B
-P 1800 1450
-F 0 "U1" H 2400 1715 50  0000 C CNN
-F 1 "ST1S41PHR" H 2400 1624 50  0000 C CNN
-F 2 "SOIC127P600X170-9N" H 2850 1550 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/st1s41.pdf" H 2850 1450 50  0001 L CNN
-F 4 "Conv DC-DC 4V to 18V Step Down Single-Out 0.8V to 18V 4A 8-Pin HSOP EP T/R" H 2850 1350 50  0001 L CNN "Description"
-F 5 "1.7" H 2850 1250 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 2850 950 50  0001 L CNN "Manufacturer_Name"
-F 7 "ST1S41PHR" H 2850 850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1800 1450
-	1    0    0    -1  
-$EndComp
 Connection ~ 1800 1750
 Wire Wire Line
 	3000 1750 3000 1850
@@ -1220,23 +1112,6 @@ Wire Wire Line
 Connection ~ 4350 3500
 Wire Wire Line
 	4350 3500 4850 3500
-$Comp
-L SamacSys_Parts:SRN6045TA-101M L1
-U 1 1 5F3C5401
-P 3150 1550
-F 0 "L1" H 3550 1775 50  0000 C CNN
-F 1 "SRN6045TA-101M" H 3550 1684 50  0000 C CNN
-F 2 "SRN6045TA220M" H 3800 1600 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf" H 3800 1500 50  0001 L CNN
-F 4 "fixed Inductor 100uH 0.82A Shielded" H 3800 1400 50  0001 L CNN "Description"
-F 5 "4" H 3800 1300 50  0001 L CNN "Height"
-F 6 "652-SRN6045TA-101M" H 3800 1200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRN6045TA-101M?qs=Vt59ZOdFuWaW81VrtId3eg%3D%3D" H 3800 1100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 3800 1000 50  0001 L CNN "Manufacturer_Name"
-F 9 "SRN6045TA-101M" H 3800 900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3150 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3950 1550 4000 1550
 Wire Wire Line
@@ -1282,8 +1157,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 4000 2600 4600
 Wire Wire Line
-	2600 4600 3800 4600
-Wire Wire Line
 	3200 4000 3200 3600
 Wire Wire Line
 	3200 3600 3000 3600
@@ -1292,4 +1165,130 @@ Wire Wire Line
 Wire Wire Line
 	2050 3500 2350 3500
 Connection ~ 2350 3500
+$Comp
+L Personal_ICs:ST1S41PHR U1
+U 1 1 5FB8D4DC
+P 1800 1450
+F 0 "U1" H 2400 1715 50  0000 C CNN
+F 1 "ST1S41PHR" H 2400 1624 50  0000 C CNN
+F 2 "Personal_ICs:ST1S41PHR" H 2850 1550 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/st1s41.pdf" H 2850 1450 50  0001 L CNN
+F 4 "Conv DC-DC 4V to 18V Step Down Single-Out 0.8V to 18V 4A 8-Pin HSOP EP T/R" H 2850 1350 50  0001 L CNN "Description"
+F 5 "1.7" H 2850 1250 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 2850 950 50  0001 L CNN "Manufacturer_Name"
+F 7 "ST1S41PHR" H 2850 850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_ICs:ST1S41PHR U2
+U 1 1 5FB92270
+P 5750 1450
+F 0 "U2" H 6350 1715 50  0000 C CNN
+F 1 "ST1S41PHR" H 6350 1624 50  0000 C CNN
+F 2 "Personal_ICs:ST1S41PHR" H 6800 1550 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/st1s41.pdf" H 6800 1450 50  0001 L CNN
+F 4 "Conv DC-DC 4V to 18V Step Down Single-Out 0.8V to 18V 4A 8-Pin HSOP EP T/R" H 6800 1350 50  0001 L CNN "Description"
+F 5 "1.7" H 6800 1250 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 6800 950 50  0001 L CNN "Manufacturer_Name"
+F 7 "ST1S41PHR" H 6800 850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5750 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 1750
+$Comp
+L Personal_Passives:SRN6045TA-101M L1
+U 1 1 5FB96B63
+P 3150 1550
+F 0 "L1" H 3550 1775 50  0000 C CNN
+F 1 "SRN6045TA-101M" H 3550 1684 50  0000 C CNN
+F 2 "Personal_Passives:SRN6045TA-101M" H 3800 1600 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf" H 3800 1500 50  0001 L CNN
+F 4 "fixed Inductor 100uH 0.82A Shielded" H 3800 1400 50  0001 L CNN "Description"
+F 5 "4" H 3800 1300 50  0001 L CNN "Height"
+F 6 "652-SRN6045TA-101M" H 3800 1200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRN6045TA-101M?qs=Vt59ZOdFuWaW81VrtId3eg%3D%3D" H 3800 1100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 3800 1000 50  0001 L CNN "Manufacturer_Name"
+F 9 "SRN6045TA-101M" H 3800 900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_Misc:64600001003 F1
+U 1 1 5FB9A48F
+P 1850 3500
+F 0 "F1" H 1950 3725 50  0000 C CNN
+F 1 "64600001003" H 1950 3634 50  0000 C CNN
+F 2 "Personal_Misc:64600001003" H 2500 3600 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf" H 2500 3500 50  0001 L CNN
+F 4 "Fuse Holder 5X20MM PC MNT" H 2500 3400 50  0001 L CNN "Description"
+F 5 "576-64600001003" H 2500 3200 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Littelfuse/64600001003?qs=J2dJc02fMkr9fpR3CPjt3Q%3D%3D" H 2500 3100 50  0001 L CNN "Mouser Price/Stock"
+F 7 "LITTELFUSE" H 2500 3000 50  0001 L CNN "Manufacturer_Name"
+F 8 "64600001003" H 2500 2900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_Passives:SRR1208-821KL L3
+U 1 1 5FBA0372
+P 3000 3500
+F 0 "L3" H 3400 3725 50  0000 C CNN
+F 1 "SRR1208-821KL" H 3400 3634 50  0000 C CNN
+F 2 "Personal_Passives:SRR1208-821KL" H 3650 3550 50  0001 L CNN
+F 3 "https://www.mouser.dk/datasheet/2/54/srr1208-1391332.pdf" H 3650 3450 50  0001 L CNN
+F 4 "Fixed Inductors 820uH 10% SMD 1208" H 3650 3350 50  0001 L CNN "Description"
+F 5 "8.5" H 3650 3250 50  0001 L CNN "Height"
+F 6 "652-SRR1208-821KL" H 3650 3150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRR1208-821KL?qs=h6nEWKui9NAwZV3aoI3QQg%3D%3D" H 3650 3050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 3650 2950 50  0001 L CNN "Manufacturer_Name"
+F 9 "SRR1208-821KL" H 3650 2850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3000 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 3500
+$Comp
+L Personal_ICs:VIPER318HDTR U3
+U 1 1 5FBA417E
+P 4750 5450
+F 0 "U3" V 5100 5700 50  0000 R CNN
+F 1 "VIPER318HDTR" V 5000 6150 50  0000 R CNN
+F 2 "Personal_ICs:VIPER318HDTR" H 5900 5550 50  0001 L CNN
+F 3 "https://www.mouser.dk/datasheet/2/389/dm00695734-1862067.pdf" H 5900 5450 50  0001 L CNN
+F 4 "Switching Voltage Regulators Energy Saving Off-line High Voltage Converter" H 5900 5350 50  0001 L CNN "Description"
+F 5 "1.75" H 5900 5250 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 5900 5150 50  0001 L CNN "Manufacturer_Name"
+F 7 "VIPER318HDTR" H 5900 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "VIPER318HDTR" H 5900 4950 50  0001 L CNN "Arrow Part Number"
+	1    4750 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 4150 4850 4150
+Wire Wire Line
+	5050 4150 4950 4150
+Wire Wire Line
+	2600 4600 3800 4600
+Connection ~ 5050 4150
+Wire Wire Line
+	4950 4150 4850 4150
+Connection ~ 4950 4150
+Connection ~ 4850 4150
+$Comp
+L Personal_Passives:YBS2207G_RAG D1
+U 1 1 5FB9C688
+P 2600 4000
+F 0 "D1" H 2950 3800 50  0000 L CNN
+F 1 "YBS2207G_RAG" H 2950 3700 50  0000 L CNN
+F 2 "Personal_Passives:YBS2207G_RAG" H 3450 4100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/YBS2207G RAG.pdf" H 3450 4000 50  0001 L CNN
+F 4 "Bridge Rectifiers GlassPassivated 2.2A 1000V Bridge Rec." H 3450 3900 50  0001 L CNN "Description"
+F 5 "1.5" H 3450 3800 50  0001 L CNN "Height"
+F 6 "821-YBS2207GRAG" H 3450 3700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=821-YBS2207GRAG" H 3450 3600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Taiwan Semiconductor" H 3450 3500 50  0001 L CNN "Manufacturer_Name"
+F 9 "YBS2207G RAG" H 3450 3400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

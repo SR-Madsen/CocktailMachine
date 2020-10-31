@@ -355,7 +355,6 @@ F 3 "" H 1200 4200 50  0001 C CNN
 	1    1200 4200
 	1    0    0    -1  
 $EndComp
-Connection ~ 10100 4400
 Wire Wire Line
 	10100 4400 10100 4500
 $Comp
@@ -401,8 +400,6 @@ Wire Wire Line
 	10750 2800 10850 2800
 Wire Wire Line
 	10150 2550 10100 2550
-Wire Wire Line
-	10100 2550 10100 2800
 $Comp
 L Device:C C44
 U 1 1 5F616970
@@ -526,12 +523,6 @@ F 3 "~" H 9400 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9400 1100 9400 950 
-Wire Wire Line
-	8500 5000 8500 5250
-Wire Wire Line
-	8400 5000 8400 5250
-Wire Wire Line
-	8300 5000 8300 5250
 Text Label 8500 5250 3    50   ~ 0
 JTMS_SWDIO
 Text Label 8400 5250 3    50   ~ 0
@@ -540,12 +531,8 @@ Text Label 8300 5250 3    50   ~ 0
 JTDI
 Wire Wire Line
 	7800 5000 7800 5250
-Wire Wire Line
-	7700 5000 7700 5250
 Text Label 7800 5250 3    50   ~ 0
 JTDO_TRACESWO
-Text Label 7700 5250 3    50   ~ 0
-JNTRST
 Wire Wire Line
 	9600 1900 9600 1750
 $Comp
@@ -574,24 +561,20 @@ Text GLabel 10100 2550 1    50   Input ~ 0
 3V3
 Text GLabel 10350 5450 0    50   Input ~ 0
 3V3
-Text Label 3700 7350 0    50   ~ 0
-JNTRST
-Text Label 3700 7250 0    50   ~ 0
+Text Label 6100 7250 0    50   ~ 0
 JTDI
-Text Label 3700 6850 0    50   ~ 0
+Text Label 6100 7150 0    50   ~ 0
 JTDO_TRACESWO
-Text Label 3700 7050 0    50   ~ 0
+Text Label 6100 7050 0    50   ~ 0
 JTCK_SWCLK
-Text Label 3700 7150 0    50   ~ 0
+Text Label 6100 6950 0    50   ~ 0
 JTMS_SWDIO
-Text Notes 2500 7750 0    50   ~ 0
+Text Notes 5000 7800 0    50   ~ 0
 JTAG Connector
 Wire Wire Line
 	7100 5000 7100 5250
 Text GLabel 7100 5250 3    50   Output ~ 0
 QSPI_NCS
-Wire Wire Line
-	2800 5000 2800 5250
 Text GLabel 2800 5250 3    50   Output ~ 0
 QSPI_IO2
 Wire Wire Line
@@ -610,8 +593,6 @@ Wire Wire Line
 	2000 1900 2000 1700
 Text GLabel 2000 1700 1    50   Output ~ 0
 QSPI_CLK
-Wire Wire Line
-	2500 5000 2500 5250
 Text GLabel 2700 5250 3    50   Output ~ 0
 MCPump1On
 Wire Wire Line
@@ -638,31 +619,13 @@ Text GLabel 8600 1700 1    50   Output ~ 0
 DSI_D0N
 Text GLabel 8700 1700 1    50   Output ~ 0
 DSI_D0P
-$Comp
-L MCU_ST_STM32F4:STM32F469IITx U4
-U 1 1 5F47DA03
-P 5700 3500
-F 0 "U4" V 5604 -1044 50  0000 R CNN
-F 1 "STM32F469IITx" V 5695 -1044 50  0000 R CNN
-F 2 "Package_QFP:LQFP-176_24x24mm_P0.5mm" H 4300 -800 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00219980.pdf" H 5700 3500 50  0001 C CNN
-	1    5700 3500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 3000 1200 3100
 Connection ~ 10100 4000
-Connection ~ 10100 4500
-Wire Wire Line
-	1200 4100 1200 4200
-Connection ~ 1200 4200
 Wire Wire Line
 	10100 4000 10100 4100
 Wire Wire Line
 	10500 4300 10500 4750
 Wire Wire Line
 	10100 4300 10500 4300
-Connection ~ 10100 4100
 Wire Wire Line
 	10100 3600 10100 3700
 Wire Wire Line
@@ -705,32 +668,12 @@ Wire Wire Line
 Wire Wire Line
 	10550 4100 10200 4100
 Connection ~ 10200 4100
-Wire Wire Line
-	6400 5000 6400 5250
-Wire Wire Line
-	6200 5000 6200 5250
-Wire Wire Line
-	6100 5000 6100 5250
 Text GLabel 6400 5250 3    50   Output ~ 0
 FMC_SDNWE
 Text GLabel 6200 5250 3    50   Output ~ 0
 FMC_SDNE0
 Text GLabel 6100 5250 3    50   Output ~ 0
 FMC_SDCKE0
-Wire Wire Line
-	4700 5000 4700 5250
-Wire Wire Line
-	4600 5000 4600 5250
-Wire Wire Line
-	3900 5000 3900 5250
-Wire Wire Line
-	3800 5000 3800 5250
-Wire Wire Line
-	3700 5000 3700 5250
-Wire Wire Line
-	3300 5000 3300 5250
-Wire Wire Line
-	3200 5000 3200 5250
 Text GLabel 4700 5250 3    50   Output ~ 0
 FMC_D2
 Text GLabel 4600 5250 3    50   Output ~ 0
@@ -745,34 +688,12 @@ Text GLabel 3300 5250 3    50   Output ~ 0
 FMC_D0
 Text GLabel 3200 5250 3    50   Output ~ 0
 FMC_D1
-Wire Wire Line
-	3000 5000 3000 5250
-Wire Wire Line
-	2900 5000 2900 5250
 Text GLabel 3000 5250 3    50   Output ~ 0
 FMC_NBL0
 Text GLabel 2900 5250 3    50   Output ~ 0
 FMC_NBL1
-Wire Wire Line
-	2300 5000 2300 5250
 Text GLabel 2300 5250 3    50   Output ~ 0
 FMC_D4
-Wire Wire Line
-	2200 5000 2200 5250
-Wire Wire Line
-	2100 5000 2100 5250
-Wire Wire Line
-	2000 5000 2000 5250
-Wire Wire Line
-	1900 5250 1900 5000
-Wire Wire Line
-	1800 5250 1800 5000
-Wire Wire Line
-	1700 5000 1700 5250
-Wire Wire Line
-	1600 5250 1600 5000
-Wire Wire Line
-	1500 5000 1500 5250
 Text GLabel 2200 5250 3    50   Output ~ 0
 FMC_D5
 Text GLabel 2100 5250 3    50   Output ~ 0
@@ -884,11 +805,9 @@ NoConn ~ 5900 5000
 NoConn ~ 5500 5000
 NoConn ~ 5400 5000
 NoConn ~ 5300 5000
-NoConn ~ 5200 5000
 NoConn ~ 5100 5000
 NoConn ~ 5000 5000
 NoConn ~ 4900 5000
-NoConn ~ 4500 5000
 NoConn ~ 4400 5000
 NoConn ~ 4300 5000
 NoConn ~ 4200 5000
@@ -897,37 +816,6 @@ NoConn ~ 4000 5000
 NoConn ~ 3600 5000
 NoConn ~ 3500 5000
 NoConn ~ 3400 5000
-Wire Wire Line
-	1200 3100 1200 3200
-Connection ~ 1200 3100
-Connection ~ 1200 4100
-Connection ~ 1200 3200
-Wire Wire Line
-	1200 3200 1200 3300
-Connection ~ 1200 3300
-Wire Wire Line
-	1200 3300 1200 3400
-Connection ~ 1200 3400
-Wire Wire Line
-	1200 3400 1200 3500
-Connection ~ 1200 3500
-Wire Wire Line
-	1200 3500 1200 3600
-Connection ~ 1200 3600
-Wire Wire Line
-	1200 3600 1200 3700
-Connection ~ 1200 3700
-Wire Wire Line
-	1200 3700 1200 3800
-Connection ~ 1200 3800
-Wire Wire Line
-	1200 3800 1200 3900
-Connection ~ 1200 3900
-Wire Wire Line
-	1200 3900 1200 4000
-Connection ~ 1200 4000
-Wire Wire Line
-	1200 4000 1200 4100
 NoConn ~ 2300 1900
 NoConn ~ 3300 1900
 NoConn ~ 3600 1900
@@ -1031,58 +919,14 @@ Wire Wire Line
 	6900 5000 6900 5250
 Text GLabel 6900 5250 3    50   Output ~ 0
 DSI_RESET
-Wire Wire Line
-	6800 5000 6800 5250
-Wire Wire Line
-	6700 5000 6700 5250
 Text GLabel 6700 5250 3    50   Input ~ 0
 LCD_BL_CTRL
 Text GLabel 6800 5250 3    50   Input ~ 0
 LCD_INT
-$Comp
-L SamacSys_Parts:BK1608HS601-T L4
-U 1 1 5F4A26C3
-P 10550 5450
-F 0 "L4" H 10400 5550 50  0000 L CNN
-F 1 "BK1608HS601-T" H 10400 5650 50  0000 L CNN
-F 2 "BEADC1608X95N" H 11200 5550 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/BK1608HS601-T.pdf" H 11200 5450 50  0001 L CNN
-F 4 "TAIYO YUDEN - BK1608HS601-T - FERRITE BEAD, 0.45OHM, 350mA, 0603" H 11200 5350 50  0001 L CNN "Description"
-F 5 "0.95" H 11200 5250 50  0001 L CNN "Height"
-F 6 "963-BK1608HS601-T" H 11200 5150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/BK1608HS601-T?qs=I6KAKw0tg2yRykYpbtkrDg%3D%3D" H 11200 5050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TAIYO YUDEN" H 11200 4950 50  0001 L CNN "Manufacturer_Name"
-F 9 "BK1608HS601-T" H 11200 4850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10550 5450
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	10550 5450 10350 5450
-$Comp
-L SamacSys_Parts:ECS-5032MV-250-CN-TR X1
-U 1 1 5F37FBE8
-P 6450 1400
-F 0 "X1" V 6900 2000 50  0000 C CNN
-F 1 "ECS-5032MV-100-BN-TR" V 6800 1550 50  0000 C CNN
-F 2 "ECS5032MV250CNTR" H 7800 1500 50  0001 L CNN
-F 3 "" H 7800 1400 50  0001 L CNN
-F 4 "Standard Clock Oscillators 25MHz 1.8-3.3V 25ppm -40C +85C" H 7800 1300 50  0001 L CNN "Description"
-F 5 "1.3" H 7800 1200 50  0001 L CNN "Height"
-F 6 "520-5032MV-100-BNT" H 7800 1100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-5032MV-250-CN-TR?qs=9r4v7xj2LnkrKn0zfSkhYw%3D%3D" H 7800 1000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "ECS" H 7800 900 50  0001 L CNN "Manufacturer_Name"
-F 9 "ECS-5032MV-250-CN-TR" H 7800 800 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6450 1400
-	0    -1   -1   0   
-$EndComp
 Text Notes 6150 1500 0    50   ~ 0
 10 MHz Oscillator
-Wire Wire Line
-	2400 5000 2400 5250
-Wire Wire Line
-	2600 5000 2600 5250
-Wire Wire Line
-	2700 5000 2700 5250
 Text GLabel 2600 5250 3    50   Output ~ 0
 MCPump2On
 Text GLabel 2500 5250 3    50   Output ~ 0
@@ -1091,10 +935,6 @@ Text GLabel 2400 5250 3    50   Output ~ 0
 MCPump4On
 Wire Wire Line
 	9300 5000 9300 5250
-Wire Wire Line
-	9200 5000 9200 5250
-Wire Wire Line
-	9100 5000 9100 5250
 $Comp
 L Device:R R24
 U 1 1 5F43AD9E
@@ -1128,57 +968,6 @@ F 3 "~" H 8950 5250 50  0001 C CNN
 	1    8950 5250
 	0    1    1    0   
 $EndComp
-$Comp
-L SamacSys_Parts:150060SS55040 LED1
-U 1 1 5F4409E9
-P 9600 6150
-F 0 "LED1" H 10050 6000 50  0000 R CNN
-F 1 "150060SS55040" H 10250 5900 50  0000 R CNN
-F 2 "150060SS55040" H 10100 6300 50  0001 L BNN
-F 3 "" H 10100 6200 50  0001 L BNN
-F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 10100 6100 50  0001 L BNN "Description"
-F 5 "" H 10100 6000 50  0001 L BNN "Height"
-F 6 "710-150060SS55040" H 10100 5900 50  0001 L BNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 10100 5800 50  0001 L BNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 10100 5700 50  0001 L BNN "Manufacturer_Name"
-F 9 "150060SS55040" H 10100 5600 50  0001 L BNN "Manufacturer_Part_Number"
-	1    9600 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SamacSys_Parts:150060VS55040 LED3
-U 1 1 5F4441DC
-P 8800 6150
-F 0 "LED3" H 9050 6400 50  0000 R CNN
-F 1 "150060VS55040" H 9300 6300 50  0000 R CNN
-F 2 "SamacSys_Parts:150060SS55040" H 9300 6300 50  0001 L BNN
-F 3 "https://katalog.we-online.com/led/datasheet/150060VS55040.pdf" H 9300 6200 50  0001 L BNN
-F 4 "LED, 150060VS55040, Wurth Elektronik WL-SMCD 573 (Typ.) nm 0603 Diffused SMD package" H 9300 6100 50  0001 L BNN "Description"
-F 5 "0.5" H 9300 6000 50  0001 L BNN "Height"
-F 6 "710-150060VS55040" H 9300 5900 50  0001 L BNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS55040?qs=8Aam6%252B7C6HEumg%252B0cJZzvA%3D%3D" H 9300 5800 50  0001 L BNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 9300 5700 50  0001 L BNN "Manufacturer_Name"
-F 9 "150060VS55040" H 9300 5600 50  0001 L BNN "Manufacturer_Part_Number"
-	1    8800 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SamacSys_Parts:150060SS55040 LED2
-U 1 1 5F44B9E3
-P 9200 6150
-F 0 "LED2" V 9750 6250 50  0000 R CNN
-F 1 "150060YS55040" V 9650 6450 50  0000 R CNN
-F 2 "150060SS55040" H 9700 6300 50  0001 L BNN
-F 3 "" H 9700 6200 50  0001 L BNN
-F 4 "Yellow LED" H 9700 6100 50  0001 L BNN "Description"
-F 5 "" H 9700 6000 50  0001 L BNN "Height"
-F 6 "710-150060YS55040" H 9700 5900 50  0001 L BNN "Mouser Part Number"
-F 7 "https://www.mouser.dk/ProductDetail/Wurth-Elektronik/150060YS55040?qs=8Aam6%252B7C6HFRKfAQmHjhWw%3D%3D" H 9700 5800 50  0001 L BNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 9700 5700 50  0001 L BNN "Manufacturer_Name"
-F 9 "150060YS55040" H 9700 5600 50  0001 L BNN "Manufacturer_Part_Number"
-	1    9200 6150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8800 5250 8800 5550
 Wire Wire Line
@@ -1208,8 +997,6 @@ Wire Wire Line
 NoConn ~ 5500 1900
 Wire Wire Line
 	5700 5000 5700 5250
-Wire Wire Line
-	5800 5000 5800 5250
 Text GLabel 5800 5250 3    50   Output ~ 0
 UART_TX
 Text GLabel 5700 5250 3    50   Input ~ 0
@@ -1222,8 +1009,6 @@ Text GLabel 3500 1700 1    50   BiDi ~ 0
 UART_RTS
 Text GLabel 3400 1700 1    50   BiDi ~ 0
 UART_CTS
-Wire Wire Line
-	5600 5000 5600 5250
 Text GLabel 5600 5250 3    50   Output ~ 0
 BT_RESET
 Wire Wire Line
@@ -1260,87 +1045,11 @@ Wire Wire Line
 Connection ~ 6950 1250
 Wire Wire Line
 	6950 1250 7400 1250
-$Comp
-L SamacSys_Parts:61202021621 J4
-U 1 1 5F976C7D
-P 3700 7450
-F 0 "J4" H 4100 7600 50  0000 L CNN
-F 1 "61202021621" H 3350 7600 50  0000 L CNN
-F 2 "SHDR20W64P254_2X10_3306X910X885P" H 4450 7550 50  0001 L CNN
-F 3 "" H 4450 7450 50  0001 L CNN
-F 4 "Wurth Elektronik 612 Series, 2.54mm Pitch 20 Way 2 Row Straight PCB Header, Solder Termination, 3A" H 4450 7350 50  0001 L CNN "Description"
-F 5 "8.85" H 4450 7250 50  0001 L CNN "Height"
-F 6 "710-61202021621" H 4450 7150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61202021621?qs=ZtY9WdtwX56vYmz0%252BUtUhA%3D%3D" H 4450 7050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 4450 6950 50  0001 L CNN "Manufacturer_Name"
-F 9 "61202021621" H 4450 6850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3700 7450
-	-1   0    0    1   
-$EndComp
-NoConn ~ 3700 6950
-NoConn ~ 3700 6650
-NoConn ~ 3700 6550
-$Comp
-L power:GND #PWR?
-U 1 1 5F9BD06D
-P 2750 6950
-F 0 "#PWR?" H 2750 6700 50  0001 C CNN
-F 1 "GND" H 2750 6800 50  0000 C CNN
-F 2 "" H 2750 6950 50  0001 C CNN
-F 3 "" H 2750 6950 50  0001 C CNN
-	1    2750 6950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 7350 2750 7250
-Wire Wire Line
-	2750 7250 2800 7250
-Wire Wire Line
-	2750 7250 2750 7150
-Wire Wire Line
-	2750 7150 2800 7150
-Connection ~ 2750 7250
-Wire Wire Line
-	2800 7050 2750 7050
-Wire Wire Line
-	2750 7050 2750 7150
-Connection ~ 2750 7150
-Wire Wire Line
-	2800 6950 2750 6950
-Wire Wire Line
-	2750 6950 2750 7050
-Connection ~ 2750 7050
-Wire Wire Line
-	2800 6850 2750 6850
-Wire Wire Line
-	2750 6850 2750 6950
-Connection ~ 2750 6950
-Wire Wire Line
-	2800 6750 2750 6750
-Wire Wire Line
-	2750 6750 2750 6850
-Connection ~ 2750 6850
-Wire Wire Line
-	2800 6650 2750 6650
-Wire Wire Line
-	2750 6650 2750 6750
-Connection ~ 2750 6750
-Wire Wire Line
-	2800 6550 2750 6550
-Wire Wire Line
-	2750 6550 2750 6650
-Connection ~ 2750 6650
-Wire Wire Line
-	2800 7350 2750 7350
-Text GLabel 3750 7450 2    50   Input ~ 0
-3V3
-Text GLabel 2750 7450 0    50   Input ~ 0
+Text GLabel 5550 6950 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	2750 7450 2800 7450
-Wire Wire Line
-	3700 7450 3750 7450
-Text Label 3700 6750 0    50   ~ 0
+	5550 6950 5600 6950
+Text Label 6100 7350 0    50   ~ 0
 NRST
 Text Label 9800 1850 0    50   ~ 0
 NRST
@@ -1361,10 +1070,10 @@ Connection ~ 9800 1850
 Wire Wire Line
 	9800 1850 9800 1750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 5FB1FA68
 P 10600 1850
-F 0 "#PWR?" H 10600 1600 50  0001 C CNN
+F 0 "#PWR0127" H 10600 1600 50  0001 C CNN
 F 1 "GND" H 10605 1677 50  0000 C CNN
 F 2 "" H 10600 1850 50  0001 C CNN
 F 3 "" H 10600 1850 50  0001 C CNN
@@ -1374,11 +1083,282 @@ $EndComp
 Wire Wire Line
 	10350 1850 10600 1850
 Wire Notes Line
-	2500 7650 4350 7650
+	5000 7700 6850 7700
 Wire Notes Line
-	4350 7650 4350 6400
+	6850 7700 6850 6450
 Wire Notes Line
-	4350 6400 2500 6400
+	6850 6450 5000 6450
 Wire Notes Line
-	2500 6400 2500 7650
+	5000 6450 5000 7700
+Connection ~ 1200 4000
+Connection ~ 1200 3400
+Wire Wire Line
+	1200 3300 1200 3400
+Connection ~ 1200 3300
+Wire Wire Line
+	1200 3200 1200 3300
+Connection ~ 1200 3200
+Wire Wire Line
+	1200 3100 1200 3200
+Wire Wire Line
+	1200 3000 1200 3100
+Connection ~ 1200 3100
+Wire Wire Line
+	1200 3900 1200 4000
+Connection ~ 1200 3900
+Wire Wire Line
+	1200 3800 1200 3900
+Connection ~ 1200 3800
+Wire Wire Line
+	1200 3700 1200 3800
+Connection ~ 1200 3700
+Wire Wire Line
+	1200 3600 1200 3700
+Connection ~ 1200 3600
+Wire Wire Line
+	1200 3500 1200 3600
+Wire Wire Line
+	1200 3400 1200 3500
+Connection ~ 1200 3500
+Connection ~ 10100 4100
+Text GLabel 5200 5250 3    50   Output ~ 0
+UART5_TX
+Connection ~ 10100 4400
+Connection ~ 10100 4500
+Connection ~ 1200 4100
+Wire Wire Line
+	1200 4000 1200 4100
+Wire Wire Line
+	1200 4100 1200 4200
+Connection ~ 1200 4200
+Wire Wire Line
+	10100 2550 10100 2800
+Wire Wire Line
+	9100 5000 9100 5250
+Wire Wire Line
+	9200 5000 9200 5250
+Wire Wire Line
+	6100 5000 6100 5250
+Wire Wire Line
+	6200 5000 6200 5250
+Wire Wire Line
+	6400 5000 6400 5250
+Wire Wire Line
+	5800 5000 5800 5250
+Wire Wire Line
+	6700 5000 6700 5250
+Wire Wire Line
+	6800 5000 6800 5250
+Wire Wire Line
+	5600 5000 5600 5250
+Wire Wire Line
+	3800 5000 3800 5250
+Wire Wire Line
+	3900 5000 3900 5250
+Wire Wire Line
+	3200 5000 3200 5250
+Wire Wire Line
+	3300 5000 3300 5250
+Wire Wire Line
+	3700 5000 3700 5250
+Wire Wire Line
+	4600 5000 4600 5250
+Wire Wire Line
+	4700 5000 4700 5250
+Wire Wire Line
+	2100 5000 2100 5250
+Wire Wire Line
+	2200 5000 2200 5250
+Wire Wire Line
+	2300 5000 2300 5250
+Wire Wire Line
+	2400 5000 2400 5250
+Wire Wire Line
+	2500 5000 2500 5250
+Wire Wire Line
+	2600 5000 2600 5250
+Wire Wire Line
+	2700 5000 2700 5250
+Wire Wire Line
+	2800 5000 2800 5250
+Wire Wire Line
+	1500 5000 1500 5250
+Wire Wire Line
+	1600 5250 1600 5000
+Wire Wire Line
+	1700 5000 1700 5250
+Wire Wire Line
+	1800 5250 1800 5000
+Wire Wire Line
+	1900 5250 1900 5000
+Wire Wire Line
+	2000 5000 2000 5250
+Wire Wire Line
+	2900 5000 2900 5250
+Wire Wire Line
+	3000 5000 3000 5250
+Wire Wire Line
+	8300 5000 8300 5250
+Wire Wire Line
+	8500 5000 8500 5250
+Wire Wire Line
+	8400 5000 8400 5250
+$Comp
+L MCU_ST_STM32F4:STM32F469IITx U4
+U 1 1 5F47DA03
+P 5700 3500
+F 0 "U4" V 5604 -1044 50  0000 R CNN
+F 1 "STM32F469IITx" V 5695 -1044 50  0000 R CNN
+F 2 "Package_QFP:LQFP-176_24x24mm_P0.5mm" H 4300 -800 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00219980.pdf" H 5700 3500 50  0001 C CNN
+	1    5700 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 5000 5200 5250
+Text GLabel 4500 5250 3    50   Input ~ 0
+UART5_RX
+Wire Wire Line
+	4500 5000 4500 5250
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J4
+U 1 1 5FA3F3D7
+P 5800 7150
+F 0 "J4" H 5850 7667 50  0000 C CNN
+F 1 "M50-3610742" H 5850 7576 50  0000 C CNN
+F 2 "Personal_Misc:M50-3610742R" H 5800 7150 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M50-361.pdf" H 5800 7150 50  0001 C CNN
+F 4 "M50-3610742" H 5800 7150 50  0001 C CNN "Name"
+	1    5800 7150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 6850
+NoConn ~ 5600 6850
+$Comp
+L power:GND #PWR0149
+U 1 1 5FA78947
+P 5550 7350
+F 0 "#PWR0149" H 5550 7100 50  0001 C CNN
+F 1 "GND" V 5550 7150 50  0000 C CNN
+F 2 "" H 5550 7350 50  0001 C CNN
+F 3 "" H 5550 7350 50  0001 C CNN
+	1    5550 7350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 7350 5600 7350
+$Comp
+L power:GND #PWR0150
+U 1 1 5FA8BADB
+P 5550 7100
+F 0 "#PWR0150" H 5550 6850 50  0001 C CNN
+F 1 "GND" V 5550 6900 50  0000 C CNN
+F 2 "" H 5550 7100 50  0001 C CNN
+F 3 "" H 5550 7100 50  0001 C CNN
+	1    5550 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 7050 5550 7050
+Wire Wire Line
+	5550 7050 5550 7100
+Wire Wire Line
+	5550 7100 5550 7150
+Wire Wire Line
+	5550 7150 5600 7150
+Connection ~ 5550 7100
+Text GLabel 5550 7450 0    50   Output ~ 0
+UART5_RX
+Wire Wire Line
+	5550 7450 5600 7450
+Text GLabel 6150 7450 2    50   Input ~ 0
+UART5_TX
+Wire Wire Line
+	6150 7450 6100 7450
+NoConn ~ 5600 7250
+NoConn ~ 7700 5000
+$Comp
+L Personal_Actives:ECS-5032MV-100-CN-TR X1
+U 1 1 5FBCE580
+P 6450 1400
+F 0 "X1" V 6900 1450 50  0000 R CNN
+F 1 "ECS-5032MV-100-CN-TR" V 6800 1850 50  0000 R CNN
+F 2 "Personal_Actives:ECS5032MV250CNTR" H 7800 1500 50  0001 L CNN
+F 3 "" H 7800 1400 50  0001 L CNN
+F 4 "Standard Clock Oscillators 10MHz 1.8-3.3V 25ppm -40C +85C" H 7800 1300 50  0001 L CNN "Description"
+F 5 "1.3" H 7800 1200 50  0001 L CNN "Height"
+F 6 "520-5032MV-250-CNT" H 7800 1100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ECS/ECS-5032MV-250-CN-TR?qs=9r4v7xj2LnkrKn0zfSkhYw%3D%3D" H 7800 1000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ECS" H 7800 900 50  0001 L CNN "Manufacturer_Name"
+F 9 "ECS-5032MV-250-CN-TR" H 7800 800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6450 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Personal_Passives:BK1608HS601-T L4
+U 1 1 5FBD1011
+P 10550 5450
+F 0 "L4" H 10650 5300 50  0000 C CNN
+F 1 "BK1608HS601-T" H 10650 5200 50  0000 C CNN
+F 2 "Personal_Passives:BK1608HS601-T" H 11200 5550 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/BK1608HS601-T.pdf" H 11200 5450 50  0001 L CNN
+F 4 "TAIYO YUDEN - BK1608HS601-T - FERRITE BEAD, 0.45OHM, 350mA, 0603" H 11200 5350 50  0001 L CNN "Description"
+F 5 "0.95" H 11200 5250 50  0001 L CNN "Height"
+F 6 "963-BK1608HS601-T" H 11200 5150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/BK1608HS601-T?qs=I6KAKw0tg2yRykYpbtkrDg%3D%3D" H 11200 5050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 11200 4950 50  0001 L CNN "Manufacturer_Name"
+F 9 "BK1608HS601-T" H 11200 4850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_Passives:150060SS55040 LED1
+U 1 1 5FBD4BD8
+P 9600 6150
+F 0 "LED1" V 9950 6000 50  0000 R CNN
+F 1 "150060SS55040" V 9850 6000 50  0000 R CNN
+F 2 "Personal_Passives:150060SS55040" H 10100 6300 50  0001 L BNN
+F 3 "" H 10100 6200 50  0001 L BNN
+F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 10100 6100 50  0001 L BNN "Description"
+F 5 "710-150060SS55040" H 10100 5900 50  0001 L BNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 10100 5800 50  0001 L BNN "Mouser Price/Stock"
+F 7 "Wurth Elektronik" H 10100 5700 50  0001 L BNN "Manufacturer_Name"
+F 8 "150060SS55040" H 10100 5600 50  0001 L BNN "Manufacturer_Part_Number"
+	1    9600 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Personal_Passives:150060VS55040 LED3
+U 1 1 5FBD8902
+P 8800 6150
+F 0 "LED3" V 8900 6450 50  0000 R CNN
+F 1 "150060VS55040" V 8800 6850 50  0000 R CNN
+F 2 "Personal_Passives:150060VS55040" H 9300 6300 50  0001 L BNN
+F 3 "https://katalog.we-online.com/led/datasheet/150060VS55040.pdf" H 9300 6200 50  0001 L BNN
+F 4 "LED, 150060VS55040, Wurth Elektronik WL-SMCD 573 (Typ.) nm 0603 Diffused SMD package" H 9300 6100 50  0001 L BNN "Description"
+F 5 "0.5" H 9300 6000 50  0001 L BNN "Height"
+F 6 "710-150060VS55040" H 9300 5900 50  0001 L BNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS55040?qs=8Aam6%252B7C6HEumg%252B0cJZzvA%3D%3D" H 9300 5800 50  0001 L BNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 9300 5700 50  0001 L BNN "Manufacturer_Name"
+F 9 "150060VS55040" H 9300 5600 50  0001 L BNN "Manufacturer_Part_Number"
+	1    8800 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Personal_Passives:150060YS55040 LED2
+U 1 1 5FBDD332
+P 9200 6150
+F 0 "LED2" V 9800 6450 50  0000 R CNN
+F 1 "150060YS55040" V 9700 6450 50  0000 R CNN
+F 2 "Personal_Passives:150060VS55040" H 9700 6300 50  0001 L BNN
+F 3 "https://katalog.we-online.com/led/datasheet/150060VS55040.pdf" H 9700 6200 50  0001 L BNN
+F 4 "LED, 150060YS55040, Wurth Elektronik WL-SMCD Diffused SMD package" H 9700 6100 50  0001 L BNN "Description"
+F 5 "0.5" H 9700 6000 50  0001 L BNN "Height"
+F 6 "710-150060YS55040" H 9700 5900 50  0001 L BNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS55040?qs=8Aam6%252B7C6HEumg%252B0cJZzvA%3D%3D" H 9700 5800 50  0001 L BNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 9700 5700 50  0001 L BNN "Manufacturer_Name"
+F 9 "150060VS55040" H 9700 5600 50  0001 L BNN "Manufacturer_Part_Number"
+	1    9200 6150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

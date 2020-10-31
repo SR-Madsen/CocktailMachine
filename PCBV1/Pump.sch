@@ -29,7 +29,7 @@ F 3 "" H 2200 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 1150 3150 1150
+	2950 1150 3000 1150
 Wire Notes Line
 	1350 1900 1350 900 
 $Comp
@@ -65,23 +65,6 @@ F 3 "" H 3550 1700 50  0001 C CNN
 	1    3550 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:CPC1020N D2
-U 1 1 5F350F97
-P 2350 1150
-F 0 "D2" H 2650 1350 50  0000 C CNN
-F 1 "CPC1020N" H 2650 1250 50  0000 C CNN
-F 2 "SOP254P610X218-4N" H 3600 1250 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3600 1150 50  0001 L CNN
-F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3600 1050 50  0001 L CNN "Description"
-F 5 "2.184" H 3600 950 50  0001 L CNN "Height"
-F 6 "849-CPC1020N" H 3600 850 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3600 750 50  0001 L CNN "Mouser Price/Stock"
-F 8 "IXYS SEMICONDUCTOR" H 3600 650 50  0001 L CNN "Manufacturer_Name"
-F 9 "CPC1020N" H 3600 550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2350 1150
-	1    0    0    -1  
-$EndComp
 Text GLabel 3150 1150 2    50   Input ~ 0
 12V
 Text GLabel 1900 1150 0    50   Input ~ 0
@@ -111,30 +94,13 @@ F 3 "~" H 3150 1550 50  0001 C CNN
 	1    3150 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:150060SS55040 LED4
-U 1 1 5F9DF243
-P 2450 1700
-F 0 "LED4" H 2900 1850 50  0000 C CNN
-F 1 "150060SS55040" H 2750 1550 50  0000 C CNN
-F 2 "150060SS55040" H 2950 1850 50  0001 L BNN
-F 3 "" H 2950 1750 50  0001 L BNN
-F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 1650 50  0001 L BNN "Description"
-F 5 "" H 2950 1550 50  0001 L BNN "Height"
-F 6 "710-150060SS55040" H 2950 1450 50  0001 L BNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 1350 50  0001 L BNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 2950 1250 50  0001 L BNN "Manufacturer_Name"
-F 9 "150060SS55040" H 2950 1150 50  0001 L BNN "Manufacturer_Part_Number"
-	1    2450 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 1700 3050 1700
 Wire Wire Line
 	2450 1700 2200 1700
 Connection ~ 2200 1700
 Wire Wire Line
-	2950 1350 3150 1350
+	2950 1350 3000 1350
 Wire Notes Line
 	4450 1900 1350 1900
 Wire Wire Line
@@ -196,23 +162,6 @@ F 3 "" H 3550 3100 50  0001 C CNN
 	1    3550 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:CPC1020N D6
-U 1 1 5F9EBE3E
-P 2350 2550
-F 0 "D6" H 2650 2750 50  0000 C CNN
-F 1 "CPC1020N" H 2650 2650 50  0000 C CNN
-F 2 "SOP254P610X218-4N" H 3600 2650 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3600 2550 50  0001 L CNN
-F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3600 2450 50  0001 L CNN "Description"
-F 5 "2.184" H 3600 2350 50  0001 L CNN "Height"
-F 6 "849-CPC1020N" H 3600 2250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3600 2150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "IXYS SEMICONDUCTOR" H 3600 2050 50  0001 L CNN "Manufacturer_Name"
-F 9 "CPC1020N" H 3600 1950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2350 2550
-	1    0    0    -1  
-$EndComp
 Text GLabel 3150 2550 2    50   Input ~ 0
 12V
 Text GLabel 1900 2550 0    50   Input ~ 0
@@ -234,23 +183,6 @@ F 1 "2k" H 3220 2905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 2950 50  0001 C CNN
 F 3 "~" H 3150 2950 50  0001 C CNN
 	1    3150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L SamacSys_Parts:150060SS55040 LED5
-U 1 1 5F9EBE56
-P 2450 3100
-F 0 "LED5" H 2900 3250 50  0000 C CNN
-F 1 "150060SS55040" H 2750 2950 50  0000 C CNN
-F 2 "150060SS55040" H 2950 3250 50  0001 L BNN
-F 3 "" H 2950 3150 50  0001 L BNN
-F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 3050 50  0001 L BNN "Description"
-F 5 "" H 2950 2950 50  0001 L BNN "Height"
-F 6 "710-150060SS55040" H 2950 2850 50  0001 L BNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 2750 50  0001 L BNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 2950 2650 50  0001 L BNN "Manufacturer_Name"
-F 9 "150060SS55040" H 2950 2550 50  0001 L BNN "Manufacturer_Part_Number"
-	1    2450 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -321,23 +253,6 @@ F 3 "" H 3550 4500 50  0001 C CNN
 	1    3550 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:CPC1020N D7
-U 1 1 5F9EF89E
-P 2350 3950
-F 0 "D7" H 2650 4150 50  0000 C CNN
-F 1 "CPC1020N" H 2650 4050 50  0000 C CNN
-F 2 "SOP254P610X218-4N" H 3600 4050 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3600 3950 50  0001 L CNN
-F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3600 3850 50  0001 L CNN "Description"
-F 5 "2.184" H 3600 3750 50  0001 L CNN "Height"
-F 6 "849-CPC1020N" H 3600 3650 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3600 3550 50  0001 L CNN "Mouser Price/Stock"
-F 8 "IXYS SEMICONDUCTOR" H 3600 3450 50  0001 L CNN "Manufacturer_Name"
-F 9 "CPC1020N" H 3600 3350 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2350 3950
-	1    0    0    -1  
-$EndComp
 Text GLabel 3150 3950 2    50   Input ~ 0
 12V
 Text GLabel 1900 3950 0    50   Input ~ 0
@@ -359,23 +274,6 @@ F 1 "2k" H 3220 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4350 50  0001 C CNN
 F 3 "~" H 3150 4350 50  0001 C CNN
 	1    3150 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L SamacSys_Parts:150060SS55040 LED6
-U 1 1 5F9EF8B6
-P 2450 4500
-F 0 "LED6" H 2900 4650 50  0000 C CNN
-F 1 "150060SS55040" H 2750 4350 50  0000 C CNN
-F 2 "150060SS55040" H 2950 4650 50  0001 L BNN
-F 3 "" H 2950 4550 50  0001 L BNN
-F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 4450 50  0001 L BNN "Description"
-F 5 "" H 2950 4350 50  0001 L BNN "Height"
-F 6 "710-150060SS55040" H 2950 4250 50  0001 L BNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 4150 50  0001 L BNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 2950 4050 50  0001 L BNN "Manufacturer_Name"
-F 9 "150060SS55040" H 2950 3950 50  0001 L BNN "Manufacturer_Part_Number"
-	1    2450 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -446,23 +344,6 @@ F 3 "" H 3550 5900 50  0001 C CNN
 	1    3550 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:CPC1020N D8
-U 1 1 5F9F4451
-P 2350 5350
-F 0 "D8" H 2650 5550 50  0000 C CNN
-F 1 "CPC1020N" H 2650 5450 50  0000 C CNN
-F 2 "SOP254P610X218-4N" H 3600 5450 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3600 5350 50  0001 L CNN
-F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3600 5250 50  0001 L CNN "Description"
-F 5 "2.184" H 3600 5150 50  0001 L CNN "Height"
-F 6 "849-CPC1020N" H 3600 5050 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3600 4950 50  0001 L CNN "Mouser Price/Stock"
-F 8 "IXYS SEMICONDUCTOR" H 3600 4850 50  0001 L CNN "Manufacturer_Name"
-F 9 "CPC1020N" H 3600 4750 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2350 5350
-	1    0    0    -1  
-$EndComp
 Text GLabel 3150 5350 2    50   Input ~ 0
 12V
 Text GLabel 1900 5350 0    50   Input ~ 0
@@ -486,23 +367,6 @@ F 3 "~" H 3150 5750 50  0001 C CNN
 	1    3150 5750
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:150060SS55040 LED7
-U 1 1 5F9F4469
-P 2450 5900
-F 0 "LED7" H 2900 6050 50  0000 C CNN
-F 1 "150060SS55040" H 2750 5750 50  0000 C CNN
-F 2 "150060SS55040" H 2950 6050 50  0001 L BNN
-F 3 "" H 2950 5950 50  0001 L BNN
-F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 5850 50  0001 L BNN "Description"
-F 5 "" H 2950 5750 50  0001 L BNN "Height"
-F 6 "710-150060SS55040" H 2950 5650 50  0001 L BNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 5550 50  0001 L BNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 2950 5450 50  0001 L BNN "Manufacturer_Name"
-F 9 "150060SS55040" H 2950 5350 50  0001 L BNN "Manufacturer_Part_Number"
-	1    2450 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 5900 3050 5900
 Wire Wire Line
@@ -521,4 +385,142 @@ Wire Wire Line
 	3550 5650 3550 5900
 Wire Wire Line
 	2200 5550 2200 5900
+$Comp
+L Personal_ICs:CPC1020N D2
+U 1 1 5FBA965B
+P 2350 1150
+F 0 "D2" H 2650 1375 50  0000 C CNN
+F 1 "CPC1020N" H 2650 1284 50  0000 C CNN
+F 2 "Personal_ICs:CPC1020N" H 3250 1250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3250 1150 50  0001 L CNN
+F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3250 1050 50  0001 L CNN "Description"
+F 5 "2.184" H 3250 950 50  0001 L CNN "Height"
+F 6 "849-CPC1020N" H 3250 850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3250 750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "IXYS SEMICONDUCTOR" H 3250 650 50  0001 L CNN "Manufacturer_Name"
+F 9 "CPC1020N" H 3250 550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_ICs:CPC1020N D6
+U 1 1 5FBAA941
+P 2350 2550
+F 0 "D6" H 2650 2775 50  0000 C CNN
+F 1 "CPC1020N" H 2650 2684 50  0000 C CNN
+F 2 "Personal_ICs:CPC1020N" H 3250 2650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3250 2550 50  0001 L CNN
+F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3250 2450 50  0001 L CNN "Description"
+F 5 "2.184" H 3250 2350 50  0001 L CNN "Height"
+F 6 "849-CPC1020N" H 3250 2250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3250 2150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "IXYS SEMICONDUCTOR" H 3250 2050 50  0001 L CNN "Manufacturer_Name"
+F 9 "CPC1020N" H 3250 1950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_ICs:CPC1020N D7
+U 1 1 5FBAAE77
+P 2350 3950
+F 0 "D7" H 2650 4175 50  0000 C CNN
+F 1 "CPC1020N" H 2650 4084 50  0000 C CNN
+F 2 "Personal_ICs:CPC1020N" H 3250 4050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3250 3950 50  0001 L CNN
+F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3250 3850 50  0001 L CNN "Description"
+F 5 "2.184" H 3250 3750 50  0001 L CNN "Height"
+F 6 "849-CPC1020N" H 3250 3650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3250 3550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "IXYS SEMICONDUCTOR" H 3250 3450 50  0001 L CNN "Manufacturer_Name"
+F 9 "CPC1020N" H 3250 3350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_ICs:CPC1020N D8
+U 1 1 5FBAB741
+P 2350 5350
+F 0 "D8" H 2650 5575 50  0000 C CNN
+F 1 "CPC1020N" H 2650 5484 50  0000 C CNN
+F 2 "Personal_ICs:CPC1020N" H 3250 5450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/CPC1020N.pdf" H 3250 5350 50  0001 L CNN
+F 4 "Solid State Relay 1.2 A dc Surface Mount, SPST-NO DC MOSFET" H 3250 5250 50  0001 L CNN "Description"
+F 5 "2.184" H 3250 5150 50  0001 L CNN "Height"
+F 6 "849-CPC1020N" H 3250 5050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=849-CPC1020N" H 3250 4950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "IXYS SEMICONDUCTOR" H 3250 4850 50  0001 L CNN "Manufacturer_Name"
+F 9 "CPC1020N" H 3250 4750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2350 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 1150
+Wire Wire Line
+	3000 1150 3150 1150
+Connection ~ 3000 1350
+Wire Wire Line
+	3000 1350 3150 1350
+$Comp
+L Personal_Passives:150060SS55040 LED4
+U 1 1 5FBB068E
+P 2450 1700
+F 0 "LED4" H 2950 1850 50  0000 C CNN
+F 1 "150060SS55040" H 2750 1550 50  0000 C CNN
+F 2 "Personal_Passives:150060SS55040" H 2950 1850 50  0001 L BNN
+F 3 "" H 2950 1750 50  0001 L BNN
+F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 1650 50  0001 L BNN "Description"
+F 5 "710-150060SS55040" H 2950 1450 50  0001 L BNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 1350 50  0001 L BNN "Mouser Price/Stock"
+F 7 "Wurth Elektronik" H 2950 1250 50  0001 L BNN "Manufacturer_Name"
+F 8 "150060SS55040" H 2950 1150 50  0001 L BNN "Manufacturer_Part_Number"
+	1    2450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_Passives:150060SS55040 LED5
+U 1 1 5FBB17DD
+P 2450 3100
+F 0 "LED5" H 2950 3250 50  0000 C CNN
+F 1 "150060SS55040" H 2750 2950 50  0000 C CNN
+F 2 "Personal_Passives:150060SS55040" H 2950 3250 50  0001 L BNN
+F 3 "" H 2950 3150 50  0001 L BNN
+F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 3050 50  0001 L BNN "Description"
+F 5 "710-150060SS55040" H 2950 2850 50  0001 L BNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 2750 50  0001 L BNN "Mouser Price/Stock"
+F 7 "Wurth Elektronik" H 2950 2650 50  0001 L BNN "Manufacturer_Name"
+F 8 "150060SS55040" H 2950 2550 50  0001 L BNN "Manufacturer_Part_Number"
+	1    2450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_Passives:150060SS55040 LED6
+U 1 1 5FBB1E64
+P 2450 4500
+F 0 "LED6" H 2950 4650 50  0000 C CNN
+F 1 "150060SS55040" H 2750 4350 50  0000 C CNN
+F 2 "Personal_Passives:150060SS55040" H 2950 4650 50  0001 L BNN
+F 3 "" H 2950 4550 50  0001 L BNN
+F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 4450 50  0001 L BNN "Description"
+F 5 "710-150060SS55040" H 2950 4250 50  0001 L BNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 4150 50  0001 L BNN "Mouser Price/Stock"
+F 7 "Wurth Elektronik" H 2950 4050 50  0001 L BNN "Manufacturer_Name"
+F 8 "150060SS55040" H 2950 3950 50  0001 L BNN "Manufacturer_Part_Number"
+	1    2450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Personal_Passives:150060SS55040 LED7
+U 1 1 5FBB2383
+P 2450 5900
+F 0 "LED7" H 2950 6050 50  0000 C CNN
+F 1 "150060SS55040" H 2750 5750 50  0000 C CNN
+F 2 "Personal_Passives:150060SS55040" H 2950 6050 50  0001 L BNN
+F 3 "" H 2950 5950 50  0001 L BNN
+F 4 "2.4 V Red LED 1608 (0603)  SMD, Wurth Elektronik WL-SMCD 150060SS55040" H 2950 5850 50  0001 L BNN "Description"
+F 5 "710-150060SS55040" H 2950 5650 50  0001 L BNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060SS55040?qs=8Aam6%252B7C6HG0AGgMR5PhFg%3D%3D" H 2950 5550 50  0001 L BNN "Mouser Price/Stock"
+F 7 "Wurth Elektronik" H 2950 5450 50  0001 L BNN "Manufacturer_Name"
+F 8 "150060SS55040" H 2950 5350 50  0001 L BNN "Manufacturer_Part_Number"
+	1    2450 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

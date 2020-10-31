@@ -13,23 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L SamacSys_Parts:QSH-030-01-F-D-A-K-TR J3
-U 1 1 5F5B637B
-P 4600 2100
-F 0 "J3" H 5050 2365 50  0000 C CNN
-F 1 "QSH-030-01-F-D-A-K-TR" H 5050 2274 50  0000 C CNN
-F 2 "QSH-030-01-F-D-A" H 5350 2200 50  0001 L CNN
-F 3 "http://suddendocs.samtec.com/prints/qsh-xxx-01-x-d-xxx-mkt.pdf" H 5350 2100 50  0001 L CNN
-F 4 ".5MM DOUBLE ROW MI SOCKET ASSEMB" H 5350 2000 50  0001 L CNN "Description"
-F 5 "" H 5350 1900 50  0001 L CNN "Height"
-F 6 "200-QSH03001FDAKTR" H 5350 1800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samtec/QSH-030-01-F-D-A-K-TR?qs=rU5fayqh%252BE1MoJ3Rko0Mxw%3D%3D" H 5350 1700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "SAMTEC" H 5350 1600 50  0001 L CNN "Manufacturer_Name"
-F 9 "QSH-030-01-F-D-A-K-TR" H 5350 1500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4600 2100
-	1    0    0    -1  
-$EndComp
 Text GLabel 2800 4100 0    50   Input ~ 0
 5V
 Wire Wire Line
@@ -433,5 +416,21 @@ F 3 "https://www.mouser.dk/ProductDetail/Fair-Rite/2508051217Y6?qs=paL1wOLBYNdSl
 F 4 "250805127Y6" V 3350 4700 50  0001 C CNN "Name"
 	1    3350 4700
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Personal_Misc:QSH-030-01-F-D-A-K-TR J3
+U 1 1 5FBE6AAD
+P 4600 2100
+F 0 "J3" H 5050 2365 50  0000 C CNN
+F 1 "QSH-030-01-F-D-A-K-TR" H 5050 2274 50  0000 C CNN
+F 2 "Personal_Misc:QSH-030-01-F-D-A" H 5350 2200 50  0001 L CNN
+F 3 "http://suddendocs.samtec.com/prints/qsh-xxx-01-x-d-xxx-mkt.pdf" H 5350 2100 50  0001 L CNN
+F 4 ".5MM DOUBLE ROW MI SOCKET ASSEMB" H 5350 2000 50  0001 L CNN "Description"
+F 5 "200-QSH03001FDAKTR" H 5350 1800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/Samtec/QSH-030-01-F-D-A-K-TR?qs=rU5fayqh%252BE1MoJ3Rko0Mxw%3D%3D" H 5350 1700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "SAMTEC" H 5350 1600 50  0001 L CNN "Manufacturer_Name"
+F 8 "QSH-030-01-F-D-A-K-TR" H 5350 1500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4600 2100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
