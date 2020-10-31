@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "Cocktail Machine"
-Date "2020-10-24"
+Date "2020-10-31"
 Rev "1.0"
-Comp ""
-Comment1 ""
+Comp "University of Southern Denmark"
+Comment1 "SRM"
 Comment2 ""
 Comment3 ""
 Comment4 ""
