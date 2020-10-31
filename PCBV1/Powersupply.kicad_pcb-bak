@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 16)
     (tracks 9924)
     (zones 0)
     (modules 136)
@@ -7008,6 +7008,9 @@
     )
   )
 
+  (gr_text JTAG (at 98.7044 87.1728) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text Sensor (at 142.3924 89.3064) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
