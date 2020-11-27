@@ -1,4 +1,4 @@
-19417652133784340
+19451406664503340
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72575,6 +72575,20 @@ Crystal or Oscillator
 0
 4
 4
+Personal_Actives
+ECS1601633BCKMTR
+16 MHz Crystal
+Crystal or Oscillator
+0
+4
+4
+Personal_ICs
+AT86RF232-ZX
+Low-Power ZigBee Transceiver
+
+0
+33
+33
 Personal_ICs
 CPC1020N
 30 V, 1.2 A Solid-State Relay
@@ -72583,12 +72597,26 @@ Relay or Contactor
 4
 4
 Personal_ICs
+IS25WQ040-JNLE
+NOR Flash, 4 Mbit, QSPI, 8-pin, 1.8 V supply, max. 25 mA
+Integrated Circuit
+0
+8
+8
+Personal_ICs
 MYRGP180100B21RA
 1.8 V DC-DC Converter, 1 A Iout, 2.5 V to 5.5 Vin, high efficiency, SMD 1008
 
 0
 9
 9
+Personal_ICs
+SHTC3
+Digital temperature and humidity sensor
+Integrated Circuit
+0
+5
+5
 Personal_ICs
 ST1S41PHR
 4 A Iout step-down switching regulator, 4-18 Vin, 0.8 Vout min
@@ -72610,6 +72638,13 @@ Integrated Circuit
 0
 16
 16
+Personal_Misc
+10118194-0001LF
+Amphenol SMD micro-USB type B connector
+
+0
+11
+6
 Personal_Misc
 64600001003
 Fuse holder for 5x20mm glass fuse
@@ -72652,6 +72687,20 @@ Connector
 0
 64
 64
+Personal_Misc
+SMTU2430-LF
+Coin cell 2450 battery holder, SMD
+Undefined or Miscellaneous
+0
+2
+2
+Personal_Passives
+2450FB15L0001E
+2.45 GHz Balun with integrated filter
+
+0
+6
+6
 Personal_Passives
 150060SS55040
 Red LED
@@ -72673,6 +72722,13 @@ Ferrite Bead
 0
 2
 2
+Personal_Passives
+ECMF024CMX8
+Micro QFN-8L
+Filter
+0
+12
+8
 Personal_Passives
 SRN6045TA-101M
 Inductor, 100 µH, 1.33 A saturation, 0.456 Ohm DC, SMD
@@ -83300,8 +83356,64 @@ connector Molex  top entry
 13
 12
 Vikings_connectors
+Molex_528850274
+52885-0274
+Connector
+0
+22
+22
+Vikings_connectors
+Molex_528850374
+52885-0374-3
+Connector
+0
+32
+32
+Vikings_connectors
 Molex_528850474
 52885-0474-2
+Connector
+0
+42
+42
+Vikings_connectors
+Molex_528850674
+52885-0674-1
+Connector
+0
+62
+62
+Vikings_connectors
+Molex_536270274
+53627-0274-1
+Connector
+0
+22
+22
+Vikings_connectors
+Molex_536270274_flipped
+53627-0274-1
+Connector
+0
+22
+22
+Vikings_connectors
+Molex_536270474
+55091-0474
+Connector
+0
+42
+42
+Vikings_connectors
+Molex_536270474_flipped
+55091-0474
+Connector
+0
+42
+42
+Vikings_connectors
+Molex_550910474
+55091-0474
 Connector
 0
 42
@@ -84021,6 +84133,13 @@ JTAG-SMT3-NC
 18
 18
 Vikings_devices
+KSZ8081MNX
+10/100 Mbit ethernet physical unit
+Integrated Circuit
+0
+42
+33
+Vikings_devices
 Kingstate_KPEG238_DC-Buzzer
 
 
@@ -84123,14 +84242,14 @@ PG-DSO-14-40
 
 
 0
-15
+19
 15
 Vikings_devices
 PG-DSO-14-47
 
 
 0
-15
+19
 15
 Vikings_devices
 PTCEL13R501RBE
@@ -84378,8 +84497,8 @@ WE-UCF_1712_16.6x12.5mm
 8
 8
 Vikings_devices
-Wurth_7490100110A
-7490100110A WE-LAN
+Wurth_7490100111A
+7490100111A WE-LAN
 Transformer
 0
 16
@@ -84693,6 +84812,27 @@ EPL-board
 88
 82
 Vikings_misc
+Fibox_255x180x63mm_enclosure
+
+
+0
+0
+0
+Vikings_misc
+Fibox_255x180x63mm_enclosure_shadow
+
+
+0
+0
+0
+Vikings_misc
+Fibox_255x180x63mm_enclosure_top
+
+
+0
+0
+0
+Vikings_misc
 FuseHolder_5x20_6.x32
 
 Fuse, 5x20, 6.3x32, Clip
@@ -84736,6 +84876,13 @@ Fuse, Littlefuse, Omni-Blok,
 2
 Vikings_misc
 MountingHole_3.2mm
+
+
+0
+0
+0
+Vikings_misc
+MountingHole_3.9mm
 
 
 0
