@@ -4,7 +4,7 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
+  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
   * This software component is licensed by ST under Ultimate Liberty license
@@ -41,7 +41,8 @@ public:
      * @param width            Width of the display.
      * @param height           Height of the display.
      */
-    TouchGFXGeneratedHAL(touchgfx::DMA_Interface& dma, touchgfx::LCD& display, touchgfx::TouchController& tc, uint16_t width, uint16_t height) : touchgfx::HAL(dma, display, tc, width, height)
+    TouchGFXGeneratedHAL(touchgfx::DMA_Interface& dma, touchgfx::LCD& display, touchgfx::TouchController& tc, uint16_t width, uint16_t height) :
+        touchgfx::HAL(dma, display, tc, width, height)
     {
     }
 
@@ -120,6 +121,39 @@ public:
      */
     virtual void flushFrameBuffer(const touchgfx::Rect& rect);
 
+    /**
+     *
+     * @fn virtual void TouchGFXGeneratedHAL::blockCopy();
+     *
+     * This function performs a platform-specific memcpy, if supported by the hardware.
+     *
+     * @param [out] dest     Pointer to destination memory.
+     * @param [in]  src      Pointer to source memory.
+     * @param       numBytes Number of bytes to copy.
+     *
+     * @return true if the copy succeeded, false if copy was not performed.
+     */
+    virtual bool blockCopy(void* RESTRICT dest, const void* RESTRICT src, uint32_t numBytes);
+
+    /**
+     * @fn virtual void TouchGFXGeneratedHAL::beginFrame();
+     *
+     * @brief Called when beginning to rendering a frame.
+     *
+     *        Called when beginning to rendering a frame.
+     *
+     * @return true if rendering can begin, false otherwise.
+     */
+    virtual bool beginFrame();
+
+    /**
+     * @fn virtual void TouchGFXGeneratedHAL::endFrame();
+     *
+     * @brief Called when a rendering pass is completed.
+     *
+     *        Called when a rendering pass is completed.
+     */
+    virtual void endFrame();
     /**
      *
      * @fn inline uint8_t* TouchGFXGeneratedHAL::advanceFrameBufferToRect(uint8_t* fbPtr, const touchgfx::Rect& rect) const;

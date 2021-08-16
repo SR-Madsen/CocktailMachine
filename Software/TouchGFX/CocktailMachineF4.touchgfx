@@ -4,6 +4,7 @@
       {
         "Components": [
           {
+            "Type": "Image",
             "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_800x480px.png",
             "Alpha": 255,
             "Name": "Background",
@@ -11,14 +12,15 @@
             "Y": 0,
             "Width": 800,
             "Height": 480,
-            "Type": "Image",
             "Visible": true,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Button",
             "Pressed": "__designer\\Dark_Icons_Remove_48.png",
             "Released": "__designer\\Dark_Icons_Remove_48.png",
             "Alpha": 255,
@@ -27,14 +29,15 @@
             "Y": 18,
             "Width": 48,
             "Height": 48,
-            "Type": "Button",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 255,
@@ -55,14 +58,15 @@
             "Y": 353,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": true,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ScrollList",
             "PaddingBefore": 0,
             "PaddingAfter": 0,
             "Snapping": true,
@@ -81,14 +85,15 @@
             "Y": 53,
             "Width": 787,
             "Height": 257,
-            "Type": "ScrollList",
             "Visible": true,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Button",
             "Pressed": "__designer\\Dark_Icons_Settings_48.png",
             "Released": "__designer\\Dark_Icons_Settings_48.png",
             "Alpha": 255,
@@ -97,14 +102,15 @@
             "Y": 413,
             "Width": 48,
             "Height": 48,
-            "Type": "Button",
             "Visible": true,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "BoxProgress",
             "Color": {
               "Red": 0,
               "Green": 151,
@@ -127,14 +133,15 @@
             "Y": 366,
             "Width": 404,
             "Height": 34,
-            "Type": "BoxProgress",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 255,
@@ -156,14 +163,15 @@
             "Y": 353,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -185,14 +193,15 @@
             "Y": 353,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -214,14 +223,15 @@
             "Y": 353,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId6",
             "TextRotation": "0",
             "Color": {
@@ -237,14 +247,15 @@
             "Y": 322,
             "Width": 86,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId7",
             "TextRotation": "0",
             "Color": {
@@ -260,14 +271,15 @@
             "Y": 24,
             "Width": 124,
             "Height": 37,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Line",
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -286,14 +298,15 @@
             "Y": 413,
             "Width": 800,
             "Height": 18,
-            "Type": "Line",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Line",
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -312,14 +325,15 @@
             "Y": 316,
             "Width": 800,
             "Height": 18,
-            "Type": "Line",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Line",
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -338,14 +352,15 @@
             "Y": 60,
             "Width": 800,
             "Height": 18,
-            "Type": "Line",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId8",
             "TextRotation": "0",
             "Color": {
@@ -361,14 +376,15 @@
             "Y": 92,
             "Width": 76,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId9",
             "TextRotation": "0",
             "Color": {
@@ -384,14 +400,15 @@
             "Y": 92,
             "Width": 76,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId10",
             "TextRotation": "0",
             "Color": {
@@ -407,14 +424,15 @@
             "Y": 92,
             "Width": 76,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId11",
             "TextRotation": "0",
             "Color": {
@@ -430,14 +448,15 @@
             "Y": 92,
             "Width": 76,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Line",
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -456,14 +475,15 @@
             "Y": 66,
             "Width": 98,
             "Height": 174,
-            "Type": "Line",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Line",
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -482,14 +502,15 @@
             "Y": 66,
             "Width": 97,
             "Height": 174,
-            "Type": "Line",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Line",
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -508,14 +529,15 @@
             "Y": 66,
             "Width": 95,
             "Height": 174,
-            "Type": "Line",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 255,
@@ -537,14 +559,15 @@
             "Y": 171,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 255,
@@ -566,14 +589,15 @@
             "Y": 171,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 255,
@@ -595,14 +619,15 @@
             "Y": 171,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 255,
@@ -624,14 +649,15 @@
             "Y": 171,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "Line",
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -650,14 +676,15 @@
             "Y": 240,
             "Width": 800,
             "Height": 18,
-            "Type": "Line",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId20",
             "TextRotation": "0",
             "Color": {
@@ -677,14 +704,15 @@
             "Y": 138,
             "Width": 70,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId22",
             "TextRotation": "0",
             "Color": {
@@ -704,14 +732,15 @@
             "Y": 138,
             "Width": 70,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId24",
             "TextRotation": "0",
             "Color": {
@@ -731,14 +760,15 @@
             "Y": 138,
             "Width": 70,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId26",
             "TextRotation": "0",
             "Color": {
@@ -758,14 +788,15 @@
             "Y": 138,
             "Width": 70,
             "Height": 25,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "TextArea",
             "TextId": "SingleUseId27",
             "TextRotation": "0",
             "Color": {
@@ -781,14 +812,15 @@
             "Y": 24,
             "Width": 184,
             "Height": 37,
-            "Type": "TextArea",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -810,14 +842,15 @@
             "Y": 263,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -839,14 +872,15 @@
             "Y": 263,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -868,14 +902,15 @@
             "Y": 99,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -897,14 +932,15 @@
             "Y": 181,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -926,14 +962,15 @@
             "Y": 99,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -955,14 +992,15 @@
             "Y": 181,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 255,
@@ -984,14 +1022,15 @@
             "Y": 180,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -1013,14 +1052,15 @@
             "Y": 99,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
             "Moveable": false
           },
           {
+            "Type": "ButtonWithLabel",
             "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
             "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
             "Alpha": 135,
@@ -1042,8 +1082,8 @@
             "Y": 263,
             "Width": 170,
             "Height": 60,
-            "Type": "ButtonWithLabel",
             "Visible": false,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
@@ -1055,240 +1095,240 @@
             "InteractionName": "PourInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "PourButton",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "PourButton"
             },
             "Action": {
-              "FunctionName": "PourDrink",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "PourDrink"
             }
           },
           {
             "InteractionName": "SettingsInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SettingsButton",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SettingsButton"
             },
             "Action": {
-              "FunctionName": "SettingsScreen",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "SettingsScreen"
             }
           },
           {
             "InteractionName": "ExitSettingsInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "ExitButton",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ExitButton"
             },
             "Action": {
-              "FunctionName": "ExitSettings",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ExitSettings"
             }
           },
           {
             "InteractionName": "Button250mLInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "Button250mL",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Button250mL"
             },
             "Action": {
-              "FunctionName": "Click250mL",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "Click250mL"
             }
           },
           {
             "InteractionName": "Button500mLInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "Button500mL",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Button500mL"
             },
             "Action": {
-              "FunctionName": "Click500mL",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "Click500mL"
             }
           },
           {
             "InteractionName": "Button750mLInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "Button750mL",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Button750mL"
             },
             "Action": {
-              "FunctionName": "Click750mL",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "Click750mL"
             }
           },
           {
             "InteractionName": "FlowSimInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "ButtonKey": 0,
-              "Type": "TriggerPhysicalButtonClicked"
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 0
             },
             "Action": {
-              "FunctionName": "FlowSim",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "FlowSim"
             }
           },
           {
             "InteractionName": "Pump1ChangeInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "Pump1Change",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Pump1Change"
             },
             "Action": {
-              "FunctionName": "ChangePump1",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ChangePump1"
             }
           },
           {
             "InteractionName": "Pump2ChangeInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "Pump2Change",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Pump2Change"
             },
             "Action": {
-              "FunctionName": "ChangePump2",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ChangePump2"
             }
           },
           {
             "InteractionName": "Pump3ChangeInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "Pump3Change",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Pump3Change"
             },
             "Action": {
-              "FunctionName": "ChangePump3",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ChangePump3"
             }
           },
           {
             "InteractionName": "Pump4ChangeInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "Pump4Change",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Pump4Change"
             },
             "Action": {
-              "FunctionName": "ChangePump4",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ChangePump4"
             }
           },
           {
             "InteractionName": "JuiceInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectJuice",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectJuice"
             },
             "Action": {
-              "FunctionName": "ToJuice",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToJuice"
             }
           },
           {
             "InteractionName": "WaterInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectWater",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectWater"
             },
             "Action": {
-              "FunctionName": "ToWater",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToWater"
             }
           },
           {
             "InteractionName": "NoneInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectNone",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectNone"
             },
             "Action": {
-              "FunctionName": "ToNone",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToNone"
             }
           },
           {
             "InteractionName": "GinInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectGin",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectGin"
             },
             "Action": {
-              "FunctionName": "ToGin",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToGin"
             }
           },
           {
             "InteractionName": "RumInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectRum",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectRum"
             },
             "Action": {
-              "FunctionName": "ToRum",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToRum"
             }
           },
           {
             "InteractionName": "TequilaInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectTequila",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectTequila"
             },
             "Action": {
-              "FunctionName": "ToTequila",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToTequila"
             }
           },
           {
             "InteractionName": "VodkaInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectVodka",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectVodka"
             },
             "Action": {
-              "FunctionName": "ToVodka",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToVodka"
             }
           },
           {
             "InteractionName": "Todo1Interaction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectTodo1",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectTodo1"
             },
             "Action": {
-              "FunctionName": "ToTodo1",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToTodo1"
             }
           },
           {
             "InteractionName": "Todo2Interaction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "TriggerComponent": "SelectTodo1_1",
-              "Type": "TriggerClicked"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SelectTodo1_1"
             },
             "Action": {
-              "FunctionName": "ToTodo2",
-              "Type": "ActionCustom"
+              "Type": "ActionCustom",
+              "FunctionName": "ToTodo2"
             }
           }
         ],
@@ -1301,6 +1341,7 @@
       {
         "Components": [
           {
+            "Type": "Image",
             "RelativeFilename": "download-removebg-preview.png",
             "Alpha": 255,
             "Name": "image1",
@@ -1308,8 +1349,8 @@
             "Y": 16,
             "Width": 224,
             "Height": 224,
-            "Type": "Image",
             "Visible": true,
+            "LockPosition": false,
             "Draggable": false,
             "Clickable": false,
             "Fadeable": false,
@@ -1438,7 +1479,7 @@
         "IsResource": false
       }
     ],
-    "Name": "CocktailMachineF4",
+    "Name": "MyApplication",
     "Resolution": {
       "Width": 800,
       "Height": 480
@@ -1481,7 +1522,8 @@
     "LandscapeSkinY": 0,
     "PortraitSkinX": 0,
     "PortraitSkinY": 0,
-    "DisplayOrientation": "Landscape"
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4"
   },
-  "Version": "4.13.0"
+  "Version": "4.17.0"
 }

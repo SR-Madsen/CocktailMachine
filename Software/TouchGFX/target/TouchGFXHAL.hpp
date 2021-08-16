@@ -4,7 +4,7 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
+  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
   * This software component is licensed by ST under Ultimate Liberty license
@@ -115,6 +115,21 @@ public:
      * @see flushFrameBuffer().
      */
     virtual void flushFrameBuffer(const touchgfx::Rect& rect);
+
+    /**
+     * @fn virtual bool TouchGFXHAL::blockCopy(void* RESTRICT dest, const void* RESTRICT src, uint32_t numBytes);
+     *
+     * @brief This function performs a platform-specific memcpy.
+     *
+     *        This function performs a platform-specific memcpy, if supported by the hardware.
+     *
+     * @param [out] dest Pointer to destination memory.
+     * @param [in] src   Pointer to source memory.
+     * @param numBytes   Number of bytes to copy.
+     *
+     * @return true if the copy succeeded, false if copy was not performed.
+     */
+    virtual bool blockCopy(void* RESTRICT dest, const void* RESTRICT src, uint32_t numBytes);
 
 protected:
     /**

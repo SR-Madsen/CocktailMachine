@@ -6,6 +6,6 @@
 
 static unsigned short SIM_WIDTH = 800;
 static unsigned short SIM_HEIGHT = 480;
-#define SIM_TITLE "CocktailMachineF4"
+#define SIM_TITLE "MyApplication"
 
 #endif // SIMCONSTANTS_HPP

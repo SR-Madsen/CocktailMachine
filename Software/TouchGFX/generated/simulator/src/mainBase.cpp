@@ -5,19 +5,21 @@
 #include <platform/hal/simulator/sdl2/HALSDL2.hpp>
 #include <common/TouchGFXInit.hpp>
 #include <platform/driver/lcd/LCD24bpp.hpp>
+#include <string.h>
+
 
 void setupSimulator(int argc, char** argv, touchgfx::HAL& hal) {
-    // Simulate hardware running at 60Hz generating a vsync every 16.6667 ms
-    static_cast<touchgfx::HALSDL2&>(hal).setVsyncInterval(16.6667f);
-    static_cast<touchgfx::HALSDL2&>(hal).setWindowTitle("CocktailMachineF4");
+  // Simulate hardware running at 60Hz generating a vsync every 16.6667 ms
+  static_cast<touchgfx::HALSDL2&>(hal).setVsyncInterval(16.6667f);
+  static_cast<touchgfx::HALSDL2&>(hal).setWindowTitle("MyApplication");
 
-    // Initialize SDL
-    bool sdl_init_result = static_cast<touchgfx::HALSDL2&>(hal).sdl_init(argc, argv);
-    assert(sdl_init_result && "Error during SDL initialization");
+  // Initialize SDL
+  bool sdl_init_result = static_cast<touchgfx::HALSDL2&>(hal).sdl_init(argc, argv);
+  assert(sdl_init_result && "Error during SDL initialization");
 
 }
 
 touchgfx::LCD24bpp lcd;
 touchgfx::LCD& setupLCD() {
-    return lcd;
+  return lcd;
 }

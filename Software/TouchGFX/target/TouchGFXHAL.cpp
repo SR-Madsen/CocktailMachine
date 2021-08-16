@@ -4,7 +4,7 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
+  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
   * This software component is licensed by ST under Ultimate Liberty license
@@ -17,8 +17,6 @@
 #include <TouchGFXHAL.hpp>
 
 /* USER CODE BEGIN TouchGFXHAL.cpp */
-
-#include "stm32f4xx.h"
 
 using namespace touchgfx;
 
@@ -78,8 +76,16 @@ void TouchGFXHAL::flushFrameBuffer(const touchgfx::Rect& rect)
     // and implemented needed functionality here.
     // Please note, HAL::flushFrameBuffer(const touchgfx::Rect& rect) must
     // be called to notify the touchgfx framework that flush has been performed.
+    // To calculate he start adress of rect,
+    // use advanceFrameBufferToRect(uint8_t* fbPtr, const touchgfx::Rect& rect)
+    // defined in TouchGFXGeneratedHAL.cpp
 
     TouchGFXGeneratedHAL::flushFrameBuffer(rect);
+}
+
+bool TouchGFXHAL::blockCopy(void* RESTRICT dest, const void* RESTRICT src, uint32_t numBytes)
+{
+    return TouchGFXGeneratedHAL::blockCopy(dest, src, numBytes);
 }
 
 /**
